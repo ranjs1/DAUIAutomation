@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save  Close</name>
+   <tag></tag>
+   <elementGuidId>5b5b56b8-b1ed-4ca6-ba55-4be1265baf69</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pyFlowActionHTML&quot;)/div[@id=&quot;RULE_KEY&quot;]/div[@class=&quot;layout layout-noheader layout-noheader-action_buttons&quot;]/div[@class=&quot;layout-body&quot;]/div[@class=&quot;flex content layout-content-inline_middle  content-inline_middle centered&quot;]/div[@class=&quot;content-item content-field item-2 flex flex-row dataValueWrite&quot;]/span[1]/button[@class=&quot;Strong pzhc pzbutton&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-click</name>
+      <type>Main</type>
+      <value>[[&quot;setMobileTransition&quot;,[&quot;pega.mobile.transitions.NONE&quot;]],[&quot;setUserStart&quot;,[&quot;FINISHASSIGNMENT&quot;]],[&quot;doFormSubmit&quot;,[&quot;pyActivity=FinishAssignment&quot;,&quot;:this&quot;,&quot;&quot;,&quot;:event&quot;]]]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>RateCardDetails_pyWorkPage_33</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save &amp; Close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Strong pzhc pzbutton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>20170926030512033440907</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Rate Card Automation Test Case 3 Obj Repo/Page_Delivery Automation/iframe_PegaGadget2Ifr</value>
+   </webElementProperties>
+</WebElementEntity>

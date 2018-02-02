@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180202_141349</name>
+   <tag></tag>
+   <displayName>20180202_141349</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Rate Card Automation Test Case 3</testCaseId>
+      <testCaseName>Rate Card Automation Test Case 3</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>
