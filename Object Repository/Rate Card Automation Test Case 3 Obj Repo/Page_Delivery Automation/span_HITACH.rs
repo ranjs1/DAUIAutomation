@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_HITACH</name>
+   <tag></tag>
+   <elementGuidId>0577de00-2c47-4b93-a488-709d31d44558</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;$PD_FinAccounts_pa4484760792238762pz$ppxResults$l1&quot;)/td[@class=&quot;autocompleteAGleft gridCell gridCellSelected&quot;]/div[@class=&quot;oflowDiv&quot;]/div[@class=&quot;divCont&quot;]/div[@class=&quot;cellIn&quot;]/span[1]/span[@class=&quot;match-highlight&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>hitachi</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>match-highlight</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Rate Card Automation Test Case 3 Obj Repo/Page_Delivery Automation/iframe_PegaGadget2Ifr</value>
+   </webElementProperties>
+</WebElementEntity>
