@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>RateCardTestSuite</name>
+   <name>Login Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>4ae762ae-2d92-435c-89de-9c0919f34c15</testSuiteGuid>
+   <testSuiteGuid>e42ed2f7-cded-4395-baa7-8237b6f7b47a</testSuiteGuid>
    <testCaseLink>
-      <guid>0c6658c3-af04-46ac-ab56-263dc20e3636</guid>
+      <guid>e18ad8f2-aebb-4ec5-9f3c-31d726239ecb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rate Card Automation Test Case</testCaseId>
+      <testCaseId>Test Cases/LoginAsGsopsUser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
