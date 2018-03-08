@@ -20,6 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//NIPIN//
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://vtcpfusionqa.rpega.com:9030/tcpfusionqa/PRServlet/WRr0lyMCuypQncoWBWzmItjouokRpn0jivm_loYZWDI9KRrZ8xRc6A%5B%5B*/!STANDARD')
