@@ -11,7 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>da3e36e7-312b-4f9f-93cb-020e7bb2b45e</testSuiteGuid>
    <testCaseLink>
-      <guid>b26f3a5d-fddf-4366-a9fd-7ffbd4ce6485</guid>
+      <guid>b0250648-b6e7-4a3e-8a18-4ca12a183648</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Priage/Create Priage</testCaseId>
