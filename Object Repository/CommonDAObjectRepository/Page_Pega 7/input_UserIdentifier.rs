@@ -1,57 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_PegaGadget2Ifr</name>
+   <name>input_UserIdentifier</name>
    <tag></tag>
-   <elementGuidId>39868e5e-8ae5-4021-95a2-7649dee3b8e6</elementGuidId>
+   <elementGuidId>a9213f6d-60b9-465a-9e29-6c3f252613c1</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>border</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;PegaGadget2Ifr&quot;)</value>
+      <value>id(&quot;txtUserID&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>size</name>
       <type>Main</type>
-      <value>/tcpqa/PRServlet/1x7owqsm--REl3ZnpfaW-lmDmY03UoO9*/!TABTHREAD2?pyActivity=%40baseclass.doUIAction&amp;action=createNewWork&amp;className=GS-Ops-Delta-Work-RateCard&amp;flowName=CreateRateCard&amp;dynamicContainerID=ea116240-74c5-4e95-b65b-4856fb4df9a1&amp;contentID=972080a5-8fd9-2cbc-f1c3-36c52d89baf5&amp;tabIndex=3&amp;prevContentID=74f2a966-6a68-41e6-bc93-8298023dbf89&amp;prevRecordkey=Rate%20Card&amp;portalThreadName=STANDARD&amp;portalName=COEUserPortal7&amp;pzHarnessID=HID8E4EDB17BC92B17BD2F72AD832FAFB78&amp;ClientInt=Start</value>
+      <value>20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>128</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>PegaGadget2Ifr</value>
+      <value>UserIdentifier</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>PegaGadget2Ifr</value>
+      <value>txtUserID</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>User name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputBox</value>
    </webElementProperties>
 </WebElementEntity>
