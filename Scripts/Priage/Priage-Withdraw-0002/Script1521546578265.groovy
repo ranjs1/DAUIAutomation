@@ -19,6 +19,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-//NIPIN//
+WebUI.openBrowser(findTestData('URL').getValue(1, 1))
+
+WebUI.maximizeWindow()
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
+        'Role-UserName-Password').getValue(3, 3))
+
+WebUI.delay(2)
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.createPriage'()
+
+String x = WebUI.getText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WOID'))
+
+WebUI.comment(x)
+
+WebUI.delay(2)
+
+/*Use test data Projector Billable Engagements */
+CustomKeywords.'da.priage.priageCommonActions.enterPriageEngagamentDetails'(findTestData('Projector Billable Engagements').getValue(
+        1, 1), findTestData('Projector Billable Engagements').getValue(2, 1), findTestData('Projector Billable Engagements').getValue(
+        3, 1))
+
+WebUI.delay(2)
+
+CustomKeywords.'da.priage.priageCommonActions.withdrawPriage'()
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
 

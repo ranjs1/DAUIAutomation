@@ -18,7 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//NIPIN//
+WebUI.openBrowser(findTestData('URL').getValue(1, 1))
+
+WebUI.maximizeWindow()
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
+        'Role-UserName-Password').getValue(3, 2))
+
+WebUI.delay(2)
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.createInvestment'()
+
+CustomKeywords.'da.investment.investmentCommonAction.createNewInvestment'(findTestData('NewEngagements').getValue(1, 1), 
+    findTestData('NewEngagements').getValue(2, 1), findTestData('NewEngagements').getValue(3, 1), findTestData('NewEngagements').getValue(
+        4, 1), findTestData('NewEngagements').getValue(5, 1), findTestData('NewEngagements').getValue(6, 1))
 

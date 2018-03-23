@@ -20,5 +20,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//NIPIN//
+WebUI.openBrowser(findTestData('URL').getValue(1, 1))
+
+WebUI.maximizeWindow()
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
+        'Role-UserName-Password').getValue(3, 3))
+
+CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'('PRG-23Mar2018-6')
 
