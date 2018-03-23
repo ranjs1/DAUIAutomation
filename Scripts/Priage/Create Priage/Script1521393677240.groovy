@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
+//Create Priage
+
 WebUI.openBrowser(findTestData('URL').getValue(1, 1))
 
 WebUI.maximizeWindow()

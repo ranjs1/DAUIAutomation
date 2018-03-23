@@ -12,7 +12,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>bbfce91a-d6a4-4f40-b320-b86fb3002af4</testSuiteGuid>
    <testCaseLink>
-      <guid>3609e328-a060-466c-acd1-d480b832da67</guid>
+      <guid>0bfbd010-e790-41be-96fa-1f78c121fb98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k</testCaseId>
