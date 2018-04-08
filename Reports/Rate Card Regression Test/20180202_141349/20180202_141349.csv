@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Rate Card Regression Test,Chrome 63.0.3239.132,Rate Card Regression Test Automation,2018-02-02 14:13:52,2018-02-02 14:14:06,14.132s,FAILED
-,,,,,,
-Test Cases/Rate Card Automation Test Case 3,Chrome 63.0.3239.132,,2018-02-02 14:13:52,2018-02-02 14:14:04,11.706s,FAILED
-openBrowser,Chrome 63.0.3239.132,,2018-02-02 14:13:53,2018-02-02 14:13:59,6.485s,PASSED
-navigateToUrl,Chrome 63.0.3239.132,,2018-02-02 14:13:59,2018-02-02 14:14:03,3.409s,PASSED
-setText,Chrome 63.0.3239.132,,2018-02-02 14:14:03,2018-02-02 14:14:04,0.774s,FAILED

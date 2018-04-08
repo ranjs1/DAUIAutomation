@@ -18,23 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
-import org.openqa.selenium.support.ui.ExpectedCondition as ExpectedCondition
-import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+
+GlobalVariable.WOID = WOID
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 0)
+WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.ContractDisposition'()
+CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 
-not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
-    not_run: for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {
+while (GlobalVariable.WOSTATUS.contains('PENDING')) {
+    for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {
         GlobalVariable.Status = GlobalVariable.AssignmentList[j].text
 
         println(GlobalVariable.Status)
@@ -42,8 +38,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
         if (GlobalVariable.Status == 'Pending-RDApproval') {
             if (GlobalVariable.RDReject == false) {
                 if (GlobalVariable.Meeting == true) {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, 
-                        GlobalVariable.pwd)
+                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
 
                     CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -53,8 +48,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                     CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
                 } else {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, 
-                        GlobalVariable.pwd)
+                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
 
                     CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -63,7 +57,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
                     CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
                 }
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -77,7 +71,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
             }
         } else if (GlobalVariable.Status == 'Pending-RLApproval') {
             if (GlobalVariable.RLReject == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RL, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -87,7 +81,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RL, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -101,7 +95,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
             }
         } else if (GlobalVariable.Status == 'Pending-RDDApproval') {
             if (GlobalVariable.RDD_Reject == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RDD, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RDD, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -109,7 +103,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RDD, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RDD, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -123,7 +117,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
             }
         } else if (GlobalVariable.Status == 'Pending-OPSApproval') {
             if (GlobalVariable.OpsReject == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, OPS, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -131,7 +125,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, OPS, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -145,8 +139,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
             }
         } else if (GlobalVariable.Status == 'Pending-ExpSvcApproval') {
             if (GlobalVariable.EXP_SVC_Reject == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.EXP_SVC, 
-                    GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, EXP, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -154,8 +147,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.EXP_SVC, 
-                    GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, EXP, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -167,7 +159,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
             }
         } else if (GlobalVariable.Status == 'Pending-DocUpdate') {
             if (GlobalVariable.Meeting == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -179,7 +171,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 WebUI.delay(3)
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -190,19 +182,17 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
                 CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
             }
         } else if (GlobalVariable.Status == 'Pending-Contract') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-            WebUI.maximizeWindow()
-
             CustomKeywords.'com.helper.commonfunct.commonutilities.ContractDisposition'()
 
-            WebUI.waitForPageLoad(4)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.readWO'(TestCaseno, TestDataFile)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
         } else if (GlobalVariable.Status == 'Pending-MeetingSchedule') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.CLINIC, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, CLINIC, GlobalVariable.pwd)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -214,7 +204,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
         } else if (GlobalVariable.Status == 'Pending-ExpSvcReview') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.EXP_SVC, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, EXP, GlobalVariable.pwd)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -226,7 +216,7 @@ not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
         } else {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 

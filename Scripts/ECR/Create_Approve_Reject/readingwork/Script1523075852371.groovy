@@ -18,45 +18,61 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.helper.commonfunct.commonutilities as commonutilities
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+
+GlobalVariable.WOID = WOID
+
+not_run: WebUI.delay(5)
+
+not_run: WebUI.setText(findTestObject('Object Repository/EngInfo/search'), GlobalVariable.WOID)
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.sendKeys(findTestObject('Object Repository/EngInfo/search'), Keys.chord(Keys.ENTER))
+
+not_run: WebUI.waitForPageLoad(5)
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
 WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
-not_run: String TestDataFile = System.getProperty('user.dir') + location
+CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.readWO'(findTestData('ECR/ECRTestData').getValue(1, 1), '\\Data Files\\ECR\\TestDataECR.xlsx')
+WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
-not_run: println(TestDataFile)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
 
-not_run: WebUI.delay(5)
+TestDataFile = (System.getProperty('user.dir') + TestDataFile)
 
-not_run: String CRID = WebUI.getText(findTestObject('ECR/Generic/WO/CRID'))
+println(TestDataFile)
 
-not_run: println(CRID)
+WebUI.click(findTestObject('Object Repository/ECR/WO/CRTab'))
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('ECR/Generic/WO/EngTab'))
+String CRID = WebUI.getText(findTestObject('ECR/Generic/CRLink'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
-not_run: String ENGID = WebUI.getText(findTestObject('ECR/Generic/WO/ENGID'))
+WebUI.click(findTestObject('Object Repository/ECR/WO/EngTab'))
 
-not_run: WebUI.delay(2)
+String ENGID = WebUI.getText(findTestObject('ECR/Generic/ENGID'))
 
-not_run: println(ENGID)
+WebUI.delay(2)
 
-not_run: String PROJID = WebUI.getText(findTestObject('ECR/Generic/WO/PROJID'))
+String PROJID = WebUI.getText(findTestObject('ECR/Generic/PROJID'))
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
-not_run: println(PROJID)
+WriteWO(1, TestDataFile, 2, CRID)
 
-not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.WriteWO'('1', 'C:\\DAUIAutomation\\Data Files\\ECR\\TestDataECR.xlsx', 
-    1, '')
+not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.WriteWO'('', '')
 
-not_run: WebUI.verifyAlertPresent(0)
+CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.BEPImport'('')
+
+not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 

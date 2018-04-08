@@ -69,7 +69,7 @@ public class commonutilities
 {
 	
 	@Keyword
-	def clickUsingJS(TestObject to, int timeout)
+	def static clickUsingJS(TestObject to, int timeout)
 	{
 	WebDriver driver = DriverFactory.getWebDriver()
 	WebElement element = WebUiCommonHelper.findWebElement(to, timeout)
@@ -96,7 +96,7 @@ def CreateECR(String Filelocation, String ORG, String ACC,String PL, String RD, 
 						WebUI.uploadFile(findTestObject('Generic/FilePath'), Filelocation)
 						WebUI.delay(5)
 						WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),2)
-						WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+						clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 						WebUI.waitForPageLoad(5)
 					}
 					
@@ -505,8 +505,8 @@ def approve()
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),2)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
-		WebUI.waitForPageLoad(5)
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
+		WebUI.waitForPageLoad(10)
 		}
 		
 		
@@ -523,7 +523,7 @@ def EXPReview()
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		}
 @Keyword
@@ -538,10 +538,9 @@ def gsopsApprove(){
 		WebUI.delay(5)
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
-		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		/*WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)*/
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
-		
 		}
 		
 		
@@ -559,7 +558,7 @@ def gsopsApprove(){
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Generic/NEXT_BUTTON'), 2)
 		WebUI.click(findTestObject('Generic/NEXT_BUTTON'))
@@ -588,7 +587,7 @@ def gsopsApprove(){
 		
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		}
 		else  
@@ -616,9 +615,60 @@ def reject()
 				WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 				WebUI.delay(5)
 				WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-				WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+				clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 				WebUI.delay(5)
 			}
+
+			
+			
+			
+@Keyword
+def noRL1(String TestCaseNo, String TestDataFile)
+					{
+				
+			
+					TestDataFile=System.getProperty("user.dir")+TestDataFile
+					println TestDataFile
+	
+					WebUI.click(findTestObject('Object Repository/ECR/WO/CRTab'))
+					WebUI.delay(5)
+					
+					String CRID=WebUI.getText(findTestObject("ECR/Generic/CRLink"))
+					WebUI.delay(2)
+					
+					WebUI.click(findTestObject('Object Repository/ECR/WO/EngTab'))
+					
+					String ENGID=WebUI.getText(findTestObject("ECR/Generic/ENGID"))
+					WebUI.delay(2)
+					
+					String PROJID=WebUI.getText(findTestObject("ECR/Generic/PROJID"))
+					WebUI.delay(2)
+					WriteWO(TestCaseNo, TestDataFile,2,CRID)
+					}
+			
+@Keyword
+def static readWO(String TestCaseNo, String TestDataFile)
+		{	
+		TestDataFile=System.getProperty("user.dir")+TestDataFile
+		println TestDataFile
+		WebUI.delay(2)
+		WebUI.click(findTestObject('ECR/Generic/WO/EngTab'))
+		WebUI.delay(2)
+		String ENGID=WebUI.getText(findTestObject('Object Repository/ECR/Generic/WO/ENGID'))
+		WebUI.delay(2)
+		String PROJID=WebUI.getText(findTestObject('Object Repository/ECR/Generic/WO/PROJID'))
+		WebUI.delay(2)
+		WriteWO(TestCaseNo, TestDataFile,3,ENGID)
+		WriteWO(TestCaseNo, TestDataFile,4,PROJID)
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/ECR/Generic/WO/CRTab'))
+		WebUI.delay(2)
+		String CRID=WebUI.getText(findTestObject('Object Repository/ECR/Generic/WO/CRID'))
+		WebUI.delay(2)
+		WriteWO(TestCaseNo, TestDataFile,2,CRID)				
+		}
+
+
 
 	
 @Keyword
@@ -635,7 +685,7 @@ def attachDocs(){
 			WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 			WebUI.delay(5)
 			WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-			WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+			clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 			WebUI.delay(5)
 			GlobalVariable.Meeting=1
 			}
@@ -655,7 +705,7 @@ def ContractDisposition()
 		WebUI.setText(findTestObject('Object Repository/Approve-Reject/contractNotes'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		WebUI.waitForPageLoad(4)
 		begin()
@@ -665,7 +715,7 @@ def ContractDisposition()
 		WebUI.setText(findTestObject('Object Repository/Approve-Reject/disposition_comments'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		}
 
@@ -687,13 +737,13 @@ def routeToRL()
 		WebUI.click(findTestObject('Object Repository/Approve-Reject/routetoRL'))
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		WebUI.waitForPageLoad(4)
 		}
 		else {
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		}
 		}
@@ -713,7 +763,7 @@ def noRL()
 		WebUI.click(findTestObject('Object Repository/Approve-Reject/routetoRLNO'))
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		WebUI.waitForPageLoad(4)
 		}
@@ -733,7 +783,7 @@ def RDApprove_Meeting()
 		WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 		WebUI.delay(5)
 		WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-		WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+		clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 		WebUI.delay(5)
 		WebUI.waitForPageLoad(4)
 		}
@@ -809,7 +859,7 @@ def docUpdateMeeting()
 				WebUI.sendKeys(findTestObject('Approve-Reject/APPROVE_REJECT_NOTES'), GlobalVariable.LongNotes)
 				WebUI.delay(5)
 				WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-				WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+				clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 				WebUI.delay(5)
 			
 				}
@@ -862,7 +912,7 @@ def scheduleMeeting(){
 			WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 			WebUI.setText(findTestObject('ECR/Meeting/location'), 'Cambridge')
 			WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-			WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+			clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 			WebUI.delay(5)
 		}
 				
@@ -875,13 +925,12 @@ def pendingClinic()
 			WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 			begin()
 			WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
-			
 			WebUI.click(findTestObject('ECR/Meeting/CLINIC_OUTCOME'))
 			WebUI.delay(5)
 			WebUI.setText(findTestObject('ECR/Meeting/OUTCOME_NOTES'), GlobalVariable.LongNotes)
 			WebUI.delay(5)
 			WebUI.scrollToElement(findTestObject('Object Repository/Generic/SUBMIT'),5)
-			WebUI.click(findTestObject('Object Repository/Generic/SUBMIT'))
+			clickUsingJS(findTestObject('Generic/SUBMIT'),30)
 			WebUI.delay(5)
 		}
 			
@@ -933,9 +982,12 @@ def search()
 			WebUI.setText(findTestObject('Object Repository/EngInfo/search'), GlobalVariable.WOID)
 			WebUI.delay(3)
 			WebUI.sendKeys(findTestObject('Object Repository/EngInfo/search'), Keys.chord(Keys.ENTER))
+			if(WebUI.verifyAlertPresent(2,FailureHandling.OPTIONAL))	
+				WebUI.dismissAlert()
 			WebUI.waitForPageLoad(5)
-			/*WebUI.click(findTestObject('ECR/Generic/SwitchWO'))*/
 			println GlobalVariable.WOID
+					
+			
 			}
 			
 			
@@ -970,7 +1022,6 @@ def static begin()
 
 
 	{		
-			WebUI.delay(5)
 			def BeginList=[]
 			BeginList= WebUI.findWebElements(findTestObject('Object Repository/Generic/BeginList'), 30)
 			WebUI.delay(7)
@@ -982,6 +1033,7 @@ def static begin()
 						
 						WebUI.delay(5)
 						BeginList[j].click()
+					/*	staleElement(BeginList[j],'','click')*/
 						WebUI.waitForPageLoad(5)
 						break
 					}
@@ -989,11 +1041,11 @@ def static begin()
 					println 'element is not clickable'
 				}
 				
-				WebUI.waitForPageLoad(20)
+				WebUI.waitForPageLoad(10)
 			}
 		
 @Keyword
-def static WriteWO(String TestCaseNo, String TestDataFile)
+def static WriteWO(String TestCaseNo, String TestDataFile,Integer colNum,String IDS)
 			{
 			java.lang.Integer seqNum = Integer.parseInt(TestCaseNo)
 			println seqNum
@@ -1001,12 +1053,12 @@ def static WriteWO(String TestCaseNo, String TestDataFile)
 			XSSFWorkbook  wb = new XSSFWorkbook(ExcelFileToRead)
 			XSSFSheet  sheet=wb.getSheetAt(0)
 			Row row = sheet.getRow(seqNum);
-			Cell cell = row.getCell(1);
+			Cell cell = row.getCell(colNum);
 			if (cell == null) {
-				cell = row.createCell(1);
+				cell = row.createCell(colNum);
 			}
 			cell.setCellType(Cell.CELL_TYPE_STRING);
-			cell.setCellValue(GlobalVariable.WOID);
+			cell.setCellValue(IDS);
 			ExcelFileToRead.close()
 			FileOutputStream fos = new FileOutputStream(TestDataFile)
 			wb.write(fos)
