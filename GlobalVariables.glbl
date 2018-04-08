@@ -9,7 +9,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'BEP-27Nov2017-9'</initValue>
+      <initValue>'ECR-02Apr2018-4'</initValue>
       <name>WOID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -191,5 +191,10 @@
       <description></description>
       <initValue>false</initValue>
       <name>morethanOneRLS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>test</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

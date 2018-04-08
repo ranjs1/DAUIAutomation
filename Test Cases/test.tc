@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5c09f19b-15b6-4111-b50d-54904f6cdb40</testCaseGuid>
+   <variable>
+      <defaultValue>'\\Data Files\\ECR\\TestDataECR.xlsx'</defaultValue>
+      <description></description>
+      <id>c4e0bfb1-7cb9-447b-8ccc-1b112c39faa2</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
 </TestCaseEntity>

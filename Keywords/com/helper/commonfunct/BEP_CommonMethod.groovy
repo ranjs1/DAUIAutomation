@@ -123,7 +123,7 @@ def Estimate(
 		OutputType(Output)
 		CUTILS.woid()
 		if(DataDriven)
-		CUTILS.WriteWO(TestCaseNo, TestDataFile)
+		CUTILS.WriteWO(TestCaseNo, TestDataFile,1,GlobalVariable.WOID)
 		}
 	
 @Keyword
@@ -133,8 +133,8 @@ def EngInfo(String PL,String PLTL, String RD, String RL){
 	if(GlobalVariable.morethanOneRLS==true)
 	{
 	WebUI.click(findTestObject('BEP/Generic/MorethanOneRLSYES'))
-	WebUI.delay(2)
-	WebUI.click(findTestObject('BEP/Generic/MorethanOneRLSYES'))
+	CUTILS.clickUsingJS(findTestObject('BEP/Generic/MorethanOneRLSYES'), 10)
+
 	}
 	else
 	WebUI.click(findTestObject('BEP/Generic/MorethanOneRLSNO'))
