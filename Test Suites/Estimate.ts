@@ -4,7 +4,7 @@
    <name>Estimate</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-04-01T21:43:12</lastRun>
+   <lastRun>2018-04-17T17:51:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,49 +14,49 @@
    <testCaseLink>
       <guid>5a26ef8c-b687-4059-9281-972904c4a996</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_All_Recall</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>01681d17-7559-4bcc-9a42-287db1dca5a8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_All_Reject</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>87f60034-fb67-4b71-af5c-d3cf905cae8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SendEmail_CreateECR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>36b2dcc4-4988-4b1b-b224-86d0074ca403</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SendEmail_NoECR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>49c06a55-9266-42ad-899e-8b27b8f52c7e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e0012e91-4638-425c-9826-a59c019dd34e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SkipEmail_NOECR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c29c2784-1fe8-457c-b029-f8a055006319</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_Withdraw</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2f73d511-e69a-4990-9c39-9e573f3bbab2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BEP/TestCases/TC_Create_BEP_EmailOutputMoreThanOneRLS</testCaseId>
    </testCaseLink>
    <testCaseLink>

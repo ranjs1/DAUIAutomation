@@ -43,6 +43,8 @@ public class priageCommonActions {
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/Eng_Name'), Keys.chord(Keys.TAB))
 		WebUI.delay(2)
+		WebUI.sendKeys(findTestObject('PriageObjectRepository/Engagement_Leader'), Keys.chord(Keys.ARROW_DOWN,
+			Keys.ARROW_DOWN, Keys.ENTER))
 		//WebUI.click(findTestObject('PriageObjectRepository/PLTL_Dropdown'))
 		WebUI.delay(2)
 		//WebUI.click(findTestObject('PriageObjectRepository/PLTL_Select'))
