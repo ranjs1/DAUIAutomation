@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Investment_Test_Suite,Chrome 65.0.3325.181,,2018-03-23 15:27:01,2018-03-23 15:27:28,26.932s,FAILED
+,,,,,,
+Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k,Chrome 65.0.3325.181,,2018-03-23 15:27:01,2018-03-23 15:27:27,25.500s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-03-23 15:27:02,2018-03-23 15:27:09,7.145s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-03-23 15:27:09,2018-03-23 15:27:10,1.192s,PASSED
+da.common.methods.CommonActionsInDA.loginDA,Chrome 65.0.3325.181,,2018-03-23 15:27:10,2018-03-23 15:27:23,12.434s,PASSED
+delay,Chrome 65.0.3325.181,,2018-03-23 15:27:23,2018-03-23 15:27:25,2.002s,PASSED
+da.common.methods.CommonActionsInDA.createInvestment,Chrome 65.0.3325.181,,2018-03-23 15:27:25,2018-03-23 15:27:27,2.028s,FAILED

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Investment_Test_Suite,Chrome 65.0.3325.181,,2018-03-23 15:27:33,2018-03-23 15:28:01,27.228s,FAILED
+,,,,,,
+Test Cases/Priage/Create Priage,Chrome 65.0.3325.181,,2018-03-23 15:27:34,2018-03-23 15:28:00,25.738s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-03-23 15:27:35,2018-03-23 15:27:42,6.623s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-03-23 15:27:42,2018-03-23 15:27:43,1.318s,PASSED
+da.common.methods.CommonActionsInDA.loginDA,Chrome 65.0.3325.181,,2018-03-23 15:27:43,2018-03-23 15:27:55,12.606s,PASSED
+delay,Chrome 65.0.3325.181,,2018-03-23 15:27:55,2018-03-23 15:27:58,2.009s,PASSED
+da.common.methods.CommonActionsInDA.createPriage,Chrome 65.0.3325.181,,2018-03-23 15:27:58,2018-03-23 15:28:00,2.042s,FAILED

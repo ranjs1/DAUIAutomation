@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Investment_Test_Suite" time="77" tests="1" failures="0" errors="0">
+   <testsuite name="Investment_Test_Suite" tests="1" failures="0" errors="0" time="77" timestamp="2018-03-23 15:43:53" hostname="ranjs1 - L23967WIN.rpega.com" id="Test Suites/Investment_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\Investment_Test_Suite\\20180323_154350"/>
+         <property name="logFiles" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\Investment_Test_Suite\\20180323_154350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranjs1 - L23967WIN.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.150.105.89"/>
+         <property name="sessionId" value="25b3cefaea393b41d49068b06ce9c8b7"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k" classname="Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k" status="PASSED">
+         <system-out><![CDATA[2018-03-23 15:43:53 - [TEST_CASE][PASSED] - Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k: Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k
+
+2018-03-23 15:43:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://vtcpfusionqa.rpega.com:9030/tcpfusionqa/PRServlet/'
+
+2018-03-23 15:44:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vtcpfusionqa.rpega.com:9030/tcpfusionqa/PRServlet/'
+
+2018-03-23 15:44:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 15:44:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 15:44:02 - [TEST_STEP][PASSED] - da.common.methods.CommonActionsInDA.loginDA: da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-03-23 15:44:03 - [MESSAGE][PASSED] - Text 'roea1@pegasystems.com' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'
+
+2018-03-23 15:44:03 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_Password'
+
+2018-03-23 15:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2018-03-23 15:44:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-03-23 15:44:17 - [MESSAGE][PASSED] - da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-03-23 15:44:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-23 15:44:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:19 - [TEST_STEP][PASSED] - da.common.methods.CommonActionsInDA.createInvestment: da.common.methods.CommonActionsInDA.createInvestment is PASSED
+
+2018-03-23 15:44:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/New' is clicked on
+
+2018-03-23 15:44:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/InvestmentLink' is clicked on
+
+2018-03-23 15:44:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:26 - [MESSAGE][PASSED] - da.common.methods.CommonActionsInDA.createInvestment is PASSED
+
+2018-03-23 15:44:26 - [TEST_STEP][PASSED] - da.investment.investmentCommonAction.createNewInvestment: da.investment.investmentCommonAction.createNewInvestment is PASSED
+
+2018-03-23 15:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/InvestmentObjectRepository/CreateNewInvestment' is clicked on
+
+2018-03-23 15:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/nextButton' is clicked on
+
+2018-03-23 15:44:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/InvestmentObjectRepository/ImportBSWForInvestment' is clicked on
+
+2018-03-23 15:44:30 - [MESSAGE][PASSED] - File 'C:\Users\ranjs1\git\DAUIAutomation\Data Files\BSW\Investment\INV-BSW_BSW PRJ v9.xlsm' sent to object: 'Object Repository/InvestmentObjectRepository/filePath'
+
+2018-03-23 15:44:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/InvestmentObjectRepository/importSubmitButton' is clicked on
+
+2018-03-23 15:44:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-03-23 15:44:43 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/InvestmentObjectRepository/Org_Name'
+
+2018-03-23 15:44:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:44:45 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/InvestmentObjectRepository/Org_Name'
+
+2018-03-23 15:44:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-23 15:44:50 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/InvestmentObjectRepository/Acc_Name'
+
+2018-03-23 15:44:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-23 15:44:54 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/InvestmentObjectRepository/Acc_Name'
+
+2018-03-23 15:44:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-23 15:44:59 - [MESSAGE][PASSED] - Text '3-22-INV-2' is set on object 'Object Repository/InvestmentObjectRepository/Eng_Name'
+
+2018-03-23 15:45:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:45:01 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/InvestmentObjectRepository/Eng_Name'
+
+2018-03-23 15:45:01 - [MESSAGE][PASSED] - Keys 'NA-FS' sent to object: 'Object Repository/InvestmentObjectRepository/profitCentre'
+
+2018-03-23 15:45:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:45:04 - [MESSAGE][PASSED] - Keys 'Partner Led' sent to object: 'Object Repository/InvestmentObjectRepository/ledBy'
+
+2018-03-23 15:45:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:45:06 - [MESSAGE][PASSED] - Keys '3-22-INV-2' sent to object: 'Object Repository/InvestmentObjectRepository/engDescription'
+
+2018-03-23 15:45:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 15:45:08 - [MESSAGE][PASSED] - da.investment.investmentCommonAction.createNewInvestment is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-23 15:43:53 - [TEST_SUITE][PASSED] - Investment_Test_Suite: Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

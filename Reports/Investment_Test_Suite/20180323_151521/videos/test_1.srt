@@ -1,0 +1,20 @@
+1
+00:00:01,234 --> 00:00:09,276
+1. openBrowser
+
+2
+00:00:09,281 --> 00:00:10,461
+2. maximizeWindow
+
+3
+00:00:10,462 --> 00:00:25,432
+3. da.common.methods.CommonActionsInDA.loginDA
+
+4
+00:00:25,434 --> 00:00:27,331
+4. delay
+
+5
+00:00:27,333 --> 00:00:37,507
+5. da.common.methods.CommonActionsInDA.createInvestment
+

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Estimate,Chrome 65.0.3325.181,,2018-04-17 17:52:06,2018-04-17 18:29:58,37m - 52.856s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_All_Recall,Chrome 65.0.3325.181,,2018-04-17 17:52:07,2018-04-17 17:54:15,2m - 8.448s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 17:52:09,2018-04-17 17:54:15,2m - 6.655s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_All_Reject,Chrome 65.0.3325.181,,2018-04-17 17:54:15,2018-04-17 17:58:26,4m - 10.423s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 17:54:16,2018-04-17 17:58:24,4m - 8.075s,FAILED
+com.helper.commonfunct.commonutilities.setprop,Chrome 65.0.3325.181,,2018-04-17 17:58:24,2018-04-17 17:58:24,0.001s,PASSED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 17:58:24,2018-04-17 17:58:26,1.748s,PASSED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SendEmail_CreateECR,Chrome 65.0.3325.181,,2018-04-17 17:58:26,2018-04-17 18:02:21,3m - 54.621s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 17:58:27,2018-04-17 18:02:21,3m - 53.745s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SendEmail_NoECR,Chrome 65.0.3325.181,,2018-04-17 18:02:21,2018-04-17 18:04:35,2m - 14.214s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 18:02:21,2018-04-17 18:04:35,2m - 13.652s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SkipEmail_CreateECR,Chrome 65.0.3325.181,,2018-04-17 18:04:35,2018-04-17 18:06:36,2m - 0.958s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 18:04:36,2018-04-17 18:06:36,2m - 0.217s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SkipEmail_NOECR,Chrome 65.0.3325.181,,2018-04-17 18:06:36,2018-04-17 18:07:52,1m - 15.686s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 18:06:36,2018-04-17 18:07:52,1m - 15.224s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_Withdraw,Chrome 65.0.3325.181,,2018-04-17 18:07:52,2018-04-17 18:10:53,3m - 1.335s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 18:07:52,2018-04-17 18:10:53,3m - 0.862s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_Create_BEP_EmailOutputMoreThanOneRLS,Chrome 65.0.3325.181,,2018-04-17 18:10:53,2018-04-17 18:14:35,3m - 42.148s,FAILED
+callTestCase,Chrome 65.0.3325.181,,2018-04-17 18:10:54,2018-04-17 18:14:35,3m - 41.578s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 1,Chrome 65.0.3325.181,,2018-04-17 18:14:35,2018-04-17 18:18:07,3m - 31.974s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:14:37,2018-04-17 18:14:52,15.571s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:14:52,2018-04-17 18:18:07,3m - 15.037s,ERROR
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 2,Chrome 65.0.3325.181,,2018-04-17 18:18:07,2018-04-17 18:21:41,3m - 33.868s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:18:08,2018-04-17 18:18:30,22.467s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:18:30,2018-04-17 18:21:41,3m - 11.340s,ERROR
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 3,Chrome 65.0.3325.181,,2018-04-17 18:21:41,2018-04-17 18:23:52,2m - 10.116s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:21:42,2018-04-17 18:21:56,14.251s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:21:56,2018-04-17 18:23:52,1m - 55.782s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 4,Chrome 65.0.3325.181,,2018-04-17 18:23:52,2018-04-17 18:25:49,1m - 57.671s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:23:52,2018-04-17 18:24:05,13.306s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:24:05,2018-04-17 18:25:49,1m - 44.308s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 5,Chrome 65.0.3325.181,,2018-04-17 18:25:49,2018-04-17 18:29:10,3m - 20.120s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:25:49,2018-04-17 18:26:04,14.592s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:26:04,2018-04-17 18:29:09,3m - 5.408s,ERROR
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven - Iteration 6,Chrome 65.0.3325.181,,2018-04-17 18:29:10,2018-04-17 18:29:56,46.396s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 65.0.3325.181,,2018-04-17 18:29:10,2018-04-17 18:29:19,8.944s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 65.0.3325.181,,2018-04-17 18:29:19,2018-04-17 18:29:56,37.120s,FAILED

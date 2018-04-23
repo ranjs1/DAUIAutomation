@@ -1,0 +1,20 @@
+1
+00:00:01,118 --> 00:00:07,909
+1. openBrowser
+
+2
+00:00:07,913 --> 00:00:09,141
+2. maximizeWindow
+
+3
+00:00:09,142 --> 00:00:21,910
+3. da.common.methods.CommonActionsInDA.loginDA
+
+4
+00:00:21,911 --> 00:00:23,714
+4. delay
+
+5
+00:00:23,719 --> 00:00:25,989
+5. da.common.methods.CommonActionsInDA.createPriage
+
