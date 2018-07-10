@@ -27,52 +27,61 @@ import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.Keys as Keys
 
+import java.util.concurrent.ThreadLocalRandom
+
 public class CommonActionsInDA {
-	
+
 	@Keyword
-	def loginDA(String userName, String passWord) {
+	def static loginDA(String userName, String passWord) {
 		WebUI.setText(findTestObject('CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'), userName)
-		
+
 		WebUI.setText(findTestObject('CommonDAObjectRepository/Page_Pega 7/input_Password'), passWord)
-		
+
 		WebUI.click(findTestObject('CommonDAObjectRepository/Page_Pega 7/button_pyActivityCode-Security'))
-		
+
 		WebUI.delay(10)
 	}
-	
+
 	@Keyword
-	def createPriage() {
+	def static createPriage() {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('CommonDAObjectRepository/Page_Pega 7/New'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('CommonDAObjectRepository/Page_Pega 7/PriageLink'))
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
-	def createInvestment() {
+	def static createInvestment() {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('CommonDAObjectRepository/Page_Pega 7/New'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('CommonDAObjectRepository/Page_Pega 7/InvestmentLink'))
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
-	def logOff() {
+	def static logOff() {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/UsernameLogInOff'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/Logout'))
 		WebUI.delay(2)
 	}
-	
+
 	@Keyword
-	def searchWO(String wo) {
+	def static searchWO(String wo) {
 		WebUI.setText(findTestObject('CommonDAObjectRepository/Page_Pega 7/luceneSearch'), wo)
 		WebUI.sendKeys(findTestObject('CommonDAObjectRepository/Page_Pega 7/luceneSearch'), Keys.chord(Keys.ENTER))
 	}
+	
+	@Keyword
+		def static randomEngagementNameGenerator() {
+		Date today = new Date()
+		String todaysDate = today.format('MMddyy-hhmm')
+		String engagementName = 'auto_eng ' + todaysDate
+		return engagementName
+	}
+	
 
 }

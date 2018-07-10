@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Investment_More_Than_100k</name>
+   <tag></tag>
+   <comment>woid</comment>
+   <testCaseGuid>63757c54-4924-4571-b32e-1a0a9eee73b6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5c1459a-27fc-43c7-a480-a85a6d4cd25c</id>
+      <masked>false</masked>
+      <name>investmentWOStatus</name>
+   </variable>
+</TestCaseEntity>

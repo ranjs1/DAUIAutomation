@@ -27,5 +27,19 @@ WebUI.maximizeWindow()
 CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
         'Role-UserName-Password').getValue(3, 3))
 
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'('PRG-23Mar2018-6')
+CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'('PRG-05Sep2017-1')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/PriageObjectRepository/Additional Details'))
+
+WebUI.sendKeys(findTestObject('PriageObjectRepository/Additional Details'), Keys.chord(Keys.TAB))
+
+WebUI.delay(5)
+
+WebUI.sendKeys(findTestObject(null), 'test')
 

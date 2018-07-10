@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Priage_Test_Suite,Chrome 65.0.3325.181,,2018-04-24 12:34:52,2018-04-24 12:35:58,1m - 6.089s,FAILED
+,,,,,,
+Test Cases/Priage/Create Priage,Chrome 65.0.3325.181,,2018-04-24 12:34:52,2018-04-24 12:35:57,1m - 4.567s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-24 12:34:53,2018-04-24 12:35:03,9.846s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-24 12:35:03,2018-04-24 12:35:04,1.299s,PASSED
+da.common.methods.CommonActionsInDA.loginDA,Chrome 65.0.3325.181,,2018-04-24 12:35:04,2018-04-24 12:35:21,17.351s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-24 12:35:21,2018-04-24 12:35:23,2.003s,PASSED
+da.common.methods.CommonActionsInDA.createPriage,Chrome 65.0.3325.181,,2018-04-24 12:35:23,2018-04-24 12:35:34,10.581s,PASSED
+Statement - x = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CommonDAObjectRepository/Page_Pega 7/WOID)),Chrome 65.0.3325.181,,2018-04-24 12:35:34,2018-04-24 12:35:35,1.269s,PASSED
+comment,Chrome 65.0.3325.181,,2018-04-24 12:35:35,2018-04-24 12:35:35,0.009s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-24 12:35:35,2018-04-24 12:35:37,2.005s,PASSED
+da.priage.priageCommonActions.enterPriageEngagamentDetails,Chrome 65.0.3325.181,,2018-04-24 12:35:37,2018-04-24 12:35:57,19.265s,FAILED

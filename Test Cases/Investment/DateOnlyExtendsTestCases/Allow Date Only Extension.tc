@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This scenarios tests the Investment flow when an existing Investment is Extended - Date Only</description>
+   <name>Allow Date Only Extension</name>
+   <tag></tag>
+   <comment>woid</comment>
+   <testCaseGuid>7b9a7e91-9a64-4d4b-9045-936821ae2f7c</testCaseGuid>
+</TestCaseEntity>

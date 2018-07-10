@@ -25,76 +25,38 @@ WebUI.openBrowser(findTestData('URL').getValue(1, 1))
 
 WebUI.maximizeWindow()
 
+'Login Delivery Automation portal as Project Office User'
 CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
         'Role-UserName-Password').getValue(3, 3))
 
 WebUI.delay(2)
 
+'Create  a Priage Request'
 CustomKeywords.'da.common.methods.CommonActionsInDA.createPriage'()
 
-String x = WebUI.getText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WOID'))
+String woid = WebUI.getText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WOID'))
 
-WebUI.comment(x)
+WebUI.comment(woid)
 
 WebUI.delay(2)
 
 /*Use test data Projector Billable Engagements */
+'As Project Office user enter the details for the Priage - Engagement name etc.'
 CustomKeywords.'da.priage.priageCommonActions.enterPriageEngagamentDetails'(findTestData('Projector Billable Engagements').getValue(
         1, 1), findTestData('Projector Billable Engagements').getValue(2, 1), findTestData('Projector Billable Engagements').getValue(
         3, 1))
 
 WebUI.delay(2)
 
-CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
+'As Practice Leader complete the questionnairre'
+CustomKeywords.'da.priage.priageCommonActions.completePriageQuestionnaire'(woid)
 
-WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
+'Decision if Its a priage or Not'
+CustomKeywords.'da.priage.priageCommonActions.priageDecisionProcess'(woid)
 
-CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
-        'Role-UserName-Password').getValue(3, 2))
+'Scehdule Kickoff meeting'
+CustomKeywords.'da.priage.priageCommonActions.scheduleKickOff'(woid)
 
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'(x)
-
-CustomKeywords.'da.priage.priageCommonActions.completePriageQuestionnaire'()
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
-
-WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
-        'Role-UserName-Password').getValue(3, 3))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'(x)
-
-CustomKeywords.'da.priage.priageCommonActions.priageDecisionProcess'()
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
-
-WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
-        'Role-UserName-Password').getValue(3, 3))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'(x)
-
-CustomKeywords.'da.priage.priageCommonActions.scheduleKickOff'()
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
-
-WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
-        'Role-UserName-Password').getValue(3, 3))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'(x)
-
-CustomKeywords.'da.priage.priageCommonActions.conDuctKickOffMeeting'()
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.logOff'()
-
-WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
-        'Role-UserName-Password').getValue(3, 3))
-
-CustomKeywords.'da.common.methods.CommonActionsInDA.searchWO'(x)
+'Conduct KickOff Meeting'
+CustomKeywords.'da.priage.priageCommonActions.conDuctKickOffMeeting'(woid)
 

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="85" tests="0" failures="1" errors="0">
+   <testsuite name="test" tests="0" failures="1" errors="0" time="85" timestamp="2018-07-09 10:19:04" hostname="ranjs1 - L23967WIN.rpega.com" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180709_101901"/>
+         <property name="logFiles" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180709_101901\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180709_101901\\1531111828510.png"/>
+         <property name="hostName" value="ranjs1 - L23967WIN.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.150.105.8"/>
+         <property name="sessionId" value="1485fb0dbb8494801b9f5cd337448a88"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Investment/NewInvestmentTestCases/temptest" classname="Test Cases/Investment/NewInvestmentTestCases/temptest" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)"/>
+         <system-out><![CDATA[2018-07-09 10:19:04 - [TEST_CASE][FAILED] - Test Cases/Investment/NewInvestmentTestCases/temptest: Test Cases/Investment/NewInvestmentTestCases/temptest FAILED because (of) Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)
+
+2018-07-09 10:19:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://vdaqa.rpega.com:9030/daqa/PRServlet/'
+
+2018-07-09 10:19:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vdaqa.rpega.com:9030/daqa/PRServlet/'
+
+2018-07-09 10:19:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 10:19:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 10:19:12 - [TEST_STEP][PASSED] - da.common.methods.CommonActionsInDA.loginDA: da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-07-09 10:19:13 - [MESSAGE][PASSED] - Text 'roea1@pegasystems.com' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'
+
+2018-07-09 10:19:13 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_Password'
+
+2018-07-09 10:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2018-07-09 10:19:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-09 10:19:27 - [MESSAGE][PASSED] - da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-07-09 10:19:27 - [TEST_STEP][FAILED] - da.investment.investmentCommonAction.svpApproval: Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)
+
+2018-07-09 10:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 10:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/UsernameLogInOff' is clicked on
+
+2018-07-09 10:19:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 10:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/Logout' is clicked on
+
+2018-07-09 10:19:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 10:19:34 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet/' successfully
+
+2018-07-09 10:19:35 - [MESSAGE][PASSED] - Text 'trefl@pegasystems.com' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'
+
+2018-07-09 10:19:35 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_Password'
+
+2018-07-09 10:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2018-07-09 10:19:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-09 10:19:48 - [MESSAGE][PASSED] - Text 'INV-08Jul2018-5' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/luceneSearch'
+
+2018-07-09 10:19:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/luceneSearch'
+
+2018-07-09 10:19:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 10:19:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/WO Status' are matched.
+
+2018-07-09 10:19:54 - [MESSAGE][PASSED] - Object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment' is clickable
+
+2018-07-09 10:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment' is clicked on
+
+2018-07-09 10:19:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 10:20:28 - [MESSAGE][FAILED] - Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)
+[[ATTACHMENT|C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180709_101901\\1531111828510.png]]
+
+2018-07-09 10:20:28 - [MESSAGE][FAILED] - Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)]]></system-out>
+         <system-err><![CDATA[2018-07-09 10:19:04 - [TEST_CASE][FAILED] - Test Cases/Investment/NewInvestmentTestCases/temptest: Test Cases/Investment/NewInvestmentTestCases/temptest FAILED because (of) Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 10:19:04 - [TEST_SUITE][FAILED] - test: Test Cases/Investment/NewInvestmentTestCases/temptest FAILED because (of) Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-09 10:19:04 - [TEST_SUITE][FAILED] - test: Test Cases/Investment/NewInvestmentTestCases/temptest FAILED because (of) Unable to set text 'SVP Comments' of object 'Object Repository/InvestmentObjectRepository/ApprovalComments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/InvestmentObjectRepository/ApprovalComments' located by 'By.xpath: //textarea[@data-test-id='201702220805250406100915']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
