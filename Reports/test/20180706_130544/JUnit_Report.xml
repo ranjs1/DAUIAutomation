@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="37" tests="1" failures="0" errors="0">
+   <testsuite name="test" tests="1" failures="0" errors="0" time="37" timestamp="2018-07-06 13:05:46" hostname="ranjs1 - L23967WIN.rpega.com" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180706_130544"/>
+         <property name="logFiles" value="C:\\Users\\ranjs1\\git\\DAUIAutomation\\Reports\\test\\20180706_130544\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranjs1 - L23967WIN.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.150.105.12"/>
+         <property name="sessionId" value="8447dccfadace2e5962f350813d52ed0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Investment/NewInvestmentTestCases/temptest" classname="Test Cases/Investment/NewInvestmentTestCases/temptest" status="PASSED">
+         <system-out><![CDATA[2018-07-06 13:05:47 - [TEST_CASE][PASSED] - Test Cases/Investment/NewInvestmentTestCases/temptest: Test Cases/Investment/NewInvestmentTestCases/temptest
+
+2018-07-06 13:05:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://vdaqa.rpega.com:9030/daqa/PRServlet/'
+
+2018-07-06 13:05:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vdaqa.rpega.com:9030/daqa/PRServlet/'
+
+2018-07-06 13:05:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-06 13:05:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-06 13:05:55 - [TEST_STEP][PASSED] - da.common.methods.CommonActionsInDA.loginDA: da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-07-06 13:05:56 - [MESSAGE][PASSED] - Text 'roea1@pegasystems.com' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'
+
+2018-07-06 13:05:56 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/input_Password'
+
+2018-07-06 13:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/button_pyActivityCode-Security' is clicked on
+
+2018-07-06 13:06:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 13:06:09 - [MESSAGE][PASSED] - da.common.methods.CommonActionsInDA.loginDA is PASSED
+
+2018-07-06 13:06:09 - [TEST_STEP][PASSED] - da.common.methods.CommonActionsInDA.searchWO: da.common.methods.CommonActionsInDA.searchWO is PASSED
+
+2018-07-06 13:06:10 - [MESSAGE][PASSED] - Text 'INV-03Jul2018-3' is set on object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/luceneSearch'
+
+2018-07-06 13:06:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/CommonDAObjectRepository/Page_Pega 7/luceneSearch'
+
+2018-07-06 13:06:10 - [MESSAGE][PASSED] - da.common.methods.CommonActionsInDA.searchWO is PASSED
+
+2018-07-06 13:06:10 - [TEST_STEP][PASSED] - da.investment.investmentCommonAction.verifyProjectInfoOnECR: da.investment.investmentCommonAction.verifyProjectInfoOnECR is PASSED
+
+2018-07-06 13:06:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CommonDAObjectRepository/Page_Pega 7/WO Status' are matched.
+
+2018-07-06 13:06:20 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-06 13:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/InvestmentObjectRepository/Investment Information Tab' is clicked on
+
+2018-07-06 13:06:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-06 13:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/InvestmentObjectRepository/Projector Engagement' is clickable
+
+2018-07-06 13:06:23 - [MESSAGE][PASSED] - da.investment.investmentCommonAction.verifyProjectInfoOnECR is PASSED
+
+2018-07-06 13:06:23 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/InvestmentObjectRepository/Projector Engagement' is focused
+
+2018-07-06 13:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/InvestmentObjectRepository/Projector Engagement' is focused
+
+2018-07-06 13:06:23 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/InvestmentObjectRepository/Projector Engagement' is clickable
+
+2018-07-06 13:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/InvestmentObjectRepository/Projector Engagement' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-06 13:05:46 - [TEST_SUITE][PASSED] - test: Test Cases/Investment/NewInvestmentTestCases/temptest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -3,6 +3,13 @@
    <description></description>
    <name>Investment_Less_Than_100k</name>
    <tag></tag>
-   <comment></comment>
+   <comment>woid</comment>
    <testCaseGuid>8c9e9e9a-07fd-4012-b417-3d27cb479765</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86099d08-a15e-4792-b5f6-5681b38c7d72</id>
+      <masked>false</masked>
+      <name>investmentWOStatus</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 67.0.3396.99,,2018-07-06 13:05:46,2018-07-06 13:06:24,37.530s,PASSED
+,,,,,,
+Test Cases/Investment/NewInvestmentTestCases/temptest,Chrome 67.0.3396.99,,2018-07-06 13:05:47,2018-07-06 13:06:23,36.270s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-06 13:05:47,2018-07-06 13:05:54,6.513s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-06 13:05:54,2018-07-06 13:05:55,1.232s,PASSED
+da.common.methods.CommonActionsInDA.loginDA,Chrome 67.0.3396.99,,2018-07-06 13:05:55,2018-07-06 13:06:09,14.377s,PASSED
+da.common.methods.CommonActionsInDA.searchWO,Chrome 67.0.3396.99,,2018-07-06 13:06:09,2018-07-06 13:06:10,0.391s,PASSED
+da.investment.investmentCommonAction.verifyProjectInfoOnECR,Chrome 67.0.3396.99,,2018-07-06 13:06:10,2018-07-06 13:06:23,12.875s,PASSED
+focus,Chrome 67.0.3396.99,,2018-07-06 13:06:23,2018-07-06 13:06:23,0.187s,PASSED
+verifyElementClickable,Chrome 67.0.3396.99,,2018-07-06 13:06:23,2018-07-06 13:06:23,0.143s,PASSED
