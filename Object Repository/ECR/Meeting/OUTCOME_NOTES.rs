@@ -4,6 +4,12 @@
    <name>OUTCOME_NOTES</name>
    <tag></tag>
    <elementGuidId>2aaa7c34-31c7-414d-988c-6ed4e6bf1bf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@data-test-id='201609220307340346118910']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@data-test-id='201609220307340345117162']</value>
+      <value>//textarea[@data-test-id='201609220307340346118910']</value>
    </webElementProperties>
 </WebElementEntity>

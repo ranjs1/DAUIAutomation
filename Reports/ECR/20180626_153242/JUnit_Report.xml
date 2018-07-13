@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR" time="302" tests="0" failures="0" errors="1">
+   <testsuite name="ECR" tests="0" failures="0" errors="1" time="302" timestamp="2018-06-26 15:32:46" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242"/>
+         <property name="logFiles" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242\\execution0.log"/>
+         <property name="attachments" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242\\1530041655280.png, C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242\\1530041786516.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.2.176.65"/>
+         <property name="sessionId" value="e7c29d828ac4131783774ae5fc0ff7fd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/TestCases/ECR__Approve_DataDriven" classname="Test Cases/ECR/TestCases/ECR__Approve_DataDriven" status="ERROR">
+         <error type="ERROR" message="Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.176.65', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver"/>
+         <system-out><![CDATA[2018-06-26 15:32:47 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/ECR__Approve_DataDriven: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.176.65', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver
+
+2018-06-26 15:32:49 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 15:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 15:33:06 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-06-26 15:33:19 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-06-26 15:33:31 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-06-26 15:33:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-06-26 15:33:40 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 15:33:40 - [TEST_STEP][PASSED] - Statement - WOID = WOID: null
+
+2018-06-26 15:33:40 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 15:33:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 15:33:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 15:34:01 - [MESSAGE][PASSED] - Text 'ECR-01May2018-1' is set on object 'Object Repository/EngInfo/search'
+
+2018-06-26 15:34:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 15:34:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-06-26 15:34:18 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242\\1530041655280.png]]
+
+2018-06-26 15:34:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:34:21 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 15:34:21 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Generic/FRAME1'
+
+2018-06-26 15:34:28 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 15:34:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:34:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 15:34:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 15:34:59 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 15:34:59 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("PENDING") && AssignmentList.size() > 0): null
+
+2018-06-26 15:34:59 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-06-26 15:35:02 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-06-26 15:35:02 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-06-26 15:35:02 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 15:35:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 15:35:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 15:35:19 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-06-26 15:35:31 - [MESSAGE][PASSED] - Text 'diazz@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-06-26 15:35:44 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-06-26 15:35:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-06-26 15:35:52 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 15:35:52 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 15:35:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 15:36:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 15:36:13 - [MESSAGE][PASSED] - Text 'ECR-01May2018-1' is set on object 'Object Repository/EngInfo/search'
+
+2018-06-26 15:36:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 15:36:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-06-26 15:36:29 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180626_153242\\1530041786516.png]]
+
+2018-06-26 15:36:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:36:32 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 15:36:32 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting: com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-06-26 15:36:49 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-06-26 15:36:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 15:37:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:37:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:37:25 - [MESSAGE][PASSED] - Text 'Cambridge' is set on object 'Object Repository/ECR/Meeting/location'
+
+2018-06-26 15:37:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 15:37:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-06-26 15:37:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 15:37:42 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-06-26 15:37:42 - [TEST_STEP][PASSED] - Statement - Status = text: null]]></system-out>
+         <system-err><![CDATA[2018-06-26 15:32:47 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/ECR__Approve_DataDriven: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.176.65', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 15:32:46 - [TEST_SUITE][ERROR] - ECR: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.176.65', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver]]></system-out>
+      <system-err><![CDATA[2018-06-26 15:32:46 - [TEST_SUITE][ERROR] - ECR: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.176.65', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver]]></system-err>
+   </testsuite>
+</testsuites>

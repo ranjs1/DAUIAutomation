@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//input[@data-test-id='2016091306023900821810550']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(.,'Clinic Meeting Date')]</value>
+      <value>//input[@data-test-id='2016091306023900821810550']</value>
    </webElementProperties>
 </WebElementEntity>

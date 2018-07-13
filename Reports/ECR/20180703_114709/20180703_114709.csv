@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR,Chrome 67.0.3396.87,,2018-07-03 11:47:12,2018-07-03 12:14:24,27m - 12.006s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-03 11:47:13,2018-07-03 12:14:20,27m - 7.062s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-03 11:47:14,2018-07-03 11:48:02,48.053s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-03 11:48:02,2018-07-03 11:57:13,9m - 10.801s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 67.0.3396.87,,2018-07-03 11:57:13,2018-07-03 11:57:48,34.269s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-03 11:57:48,2018-07-03 12:14:20,16m - 32.245s,FAILED

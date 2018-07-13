@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR" time="6678" tests="2" failures="6" errors="1">
+   <testsuite name="ECR" tests="2" failures="6" errors="1" time="6678" timestamp="2018-07-09 15:59:32" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928"/>
+         <property name="logFiles" value="C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\execution0.log"/>
+         <property name="attachments" value="C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531166698622.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531166859256.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167089772.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167320283.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167548190.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167784689.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531168705705.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531168939013.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169170807.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169372719.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169604046.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169804593.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531170020272.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531170704346.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531171192070.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531171679766.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172167526.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172655129.png, C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172743597.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.2.204.225"/>
+         <property name="sessionId" value="f537ba688640c1af3352d39faecac4a1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="PASSED">
+         <system-out><![CDATA[2018-07-09 15:59:33 - [TEST_CASE][PASSED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven
+
+2018-07-09 15:59:35 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 15:59:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 15:59:50 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:00:03 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:00:15 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:00:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:00:23 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:00:23 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.CreateECR: com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-09 16:00:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:00:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 16:00:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 16:00:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 16:00:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:01:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 16:01:17 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 16:01:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 16:01:35 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_1.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 16:01:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:01:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 16:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 16:01:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:01:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:02:11 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 16:02:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:02:22 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 16:02:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:02:39 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 16:02:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:02:50 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 16:02:57 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:03:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:03:07 - [MESSAGE][WARNING] - Text 'The engagement you entered doesn't match' is not present on page 
+
+2018-07-09 16:03:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:03:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:03:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 16:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:03:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Staff Augmentation'
+
+2018-07-09 16:03:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:03:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 16:03:54 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 16:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:04:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:04:17 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 16:04:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:04:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:04:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generic/WOID' is: 'ECR-09Jul2018-4'
+
+2018-07-09 16:04:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:04:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-09 16:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-09 16:04:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:05:02 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ECR/Meeting/ClinicMeeting' located by 'By.xpath: //input[@data-test-id='2016091306023900821810550']' not found
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531166698622.png]]
+
+2018-07-09 16:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-09 16:05:15 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:05:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2018-07-09 16:05:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:05:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:05:32 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-09 16:05:32 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:05:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:05:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:06:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:06:12 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:06:12 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("PENDING") && AssignmentList.size() > 0): com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:06:12 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:06:15 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:06:16 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:06:16 - [TEST_STEP][PASSED] - Statement - If (RDReject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:06:16 - [TEST_STEP][PASSED] - Statement - If (Meeting == true): null
+
+2018-07-09 16:06:16 - [TEST_STEP][PASSED] - Statement - Else: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:06:16 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:06:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:06:32 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:06:44 - [MESSAGE][PASSED] - Text 'martw@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:06:56 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:07:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:07:04 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:07:04 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:07:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:07:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:07:26 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-4' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:07:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:07:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:07:42 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531166859256.png]]
+
+2018-07-09 16:07:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:07:45 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:07:45 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:07:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:08:06 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:08:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:08:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:08:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:08:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:08:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:08:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:08:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:09:03 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:09:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:09:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-09 16:09:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:09:23 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:09:23 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:09:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:09:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:09:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:10:03 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:10:03 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - Statement - If (RDD_Reject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:10:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:10:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:10:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:10:23 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:10:35 - [MESSAGE][PASSED] - Text 'lachd@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:10:47 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:10:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:10:55 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:10:55 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:10:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:11:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:11:17 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-4' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:11:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:11:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:11:33 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167089772.png]]
+
+2018-07-09 16:11:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:11:36 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:11:36 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:11:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:11:57 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:12:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:12:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:12:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:12:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:12:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:12:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:12:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:12:53 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:12:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:13:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-09 16:13:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:13:14 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:13:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:13:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:13:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:13:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:13:54 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:13:54 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - Statement - If (OpsReject == false): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:13:57 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:13:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:14:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:14:13 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:14:25 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:14:37 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:14:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:14:46 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:14:46 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:14:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:14:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:15:07 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-4' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:15:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:15:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:15:23 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167320283.png]]
+
+2018-07-09 16:15:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:15:26 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:15:26 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove: com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:15:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:15:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:15:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:16:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:16:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:16:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:16:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:16:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:16:47 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:16:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:17:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:17:01 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:17:01 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:17:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:17:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:17:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:17:41 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:17:41 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:17:45 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:17:45 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:17:45 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:17:45 - [TEST_STEP][PASSED] - Statement - If (RLReject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:17:45 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:17:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:17:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:18:01 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:18:13 - [MESSAGE][PASSED] - Text 'panee@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:18:25 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:18:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:18:34 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:18:34 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:18:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:18:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:18:55 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-4' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:18:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:19:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:19:11 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167548190.png]]
+
+2018-07-09 16:19:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:19:14 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:19:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:19:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:19:35 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:19:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:19:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:19:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:19:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:20:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:20:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:20:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:20:32 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:20:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:20:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-09 16:20:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:20:52 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:20:52 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:20:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:21:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:21:39 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:21:39 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpApprApproval"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-DocUpdate"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-Contract"): null
+
+2018-07-09 16:21:42 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:21:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:21:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:21:58 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:22:10 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:22:22 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:22:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:22:30 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:22:30 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:22:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:22:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:22:52 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-4' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:22:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:23:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:23:08 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531167784689.png]]
+
+2018-07-09 16:23:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:23:11 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:23:11 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.ContractDisposition: com.helper.commonfunct.commonutilities.ContractDisposition is PASSED
+
+2018-07-09 16:23:27 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:23:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:23:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:23:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:23:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/createContract' is clicked on
+
+2018-07-09 16:24:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/createContract' is clicked on
+
+2018-07-09 16:24:22 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/Approve-Reject/contractNotes'
+
+2018-07-09 16:24:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:24:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:24:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:24:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:24:57 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:25:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:25:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:25:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/dispositionOption' is clicked on
+
+2018-07-09 16:25:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:25:44 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/Approve-Reject/disposition_comments'
+
+2018-07-09 16:25:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:25:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:26:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:26:06 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.ContractDisposition is PASSED
+
+2018-07-09 16:26:06 - [TEST_STEP][NOT_RUN] - com.helper.commonfunct.commonutilities.readWO: NOT_RUN: com.helper.commonfunct.commonutilities.readWO
+
+2018-07-09 16:26:06 - [MESSAGE][NOT_RUN] - NOT_RUN: com.helper.commonfunct.commonutilities.readWO
+
+2018-07-09 16:26:06 - [TEST_STEP][PASSED] - Statement - WOSTATUS == "Resolved-won": null
+
+2018-07-09 16:26:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:26:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:26:24 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="PASSED">
+         <system-out><![CDATA[2018-07-09 16:26:24 - [TEST_CASE][PASSED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven
+
+2018-07-09 16:26:24 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:26:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:26:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:26:40 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:26:52 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:27:04 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:27:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:27:13 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:27:13 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.CreateECR: com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-09 16:27:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:27:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 16:27:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 16:27:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 16:27:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:27:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 16:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 16:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 16:28:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 16:28:24 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_2.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 16:28:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:28:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 16:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 16:28:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:28:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:29:01 - [MESSAGE][PASSED] - Text 'FFTHRDBANK' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 16:29:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:29:12 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 16:29:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:29:29 - [MESSAGE][PASSED] - Text 'CHFTB' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 16:29:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:29:40 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 16:29:47 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:29:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:29:57 - [MESSAGE][WARNING] - Text 'The engagement you entered doesn't match' is not present on page 
+
+2018-07-09 16:30:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:30:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:30:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 16:30:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:30:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 16:30:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:30:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 16:30:44 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 16:30:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:30:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:31:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:31:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:31:17 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 16:31:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:31:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:31:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generic/WOID' is: 'ECR-09Jul2018-5'
+
+2018-07-09 16:31:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:31:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-09 16:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-09 16:31:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/ECR/Meeting/ClinicMeeting' is present
+
+2018-07-09 16:32:09 - [MESSAGE][PASSED] - Text '07/11/2018' is set on object 'Object Repository/EngInfo/MeetingDate'
+
+2018-07-09 16:32:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:32:26 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/EngInfo/instruction'
+
+2018-07-09 16:32:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:32:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/EngInfo/AE'
+
+2018-07-09 16:32:55 - [MESSAGE][PASSED] - Text 'Nagaveni Nipinale' is set on object 'Object Repository/EngInfo/AE'
+
+2018-07-09 16:33:01 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/EngInfo/AE'
+
+2018-07-09 16:33:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Meeting/SelectHighlighted' is clicked on
+
+2018-07-09 16:33:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMarketingYes' is clicked on
+
+2018-07-09 16:33:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMobileYes' is clicked on
+
+2018-07-09 16:33:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:33:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:33:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-09 16:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-09 16:33:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:34:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-09 16:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-09 16:34:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:34:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2018-07-09 16:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2018-07-09 16:34:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/Continue' is clicked on
+
+2018-07-09 16:34:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:34:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:35:00 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:35:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:35:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:35:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:35:29 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/ECR/Meeting/BSW_TEXT'
+
+2018-07-09 16:35:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:35:57 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:36:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:36:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:36:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:36:19 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-09 16:36:19 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:36:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:36:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:36:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:36:59 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:36:59 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("PENDING") && AssignmentList.size() > 0): com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:36:59 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - Statement - If (RDReject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - Statement - If (Meeting == true): null
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - Statement - Else: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:37:02 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:37:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:37:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:37:18 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:37:31 - [MESSAGE][PASSED] - Text 'martw@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:37:43 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:37:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:37:51 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:37:51 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:37:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:38:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:38:13 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:38:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:38:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:38:29 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531168705705.png]]
+
+2018-07-09 16:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:38:32 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:38:32 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:38:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:38:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:39:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:39:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:39:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:39:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:39:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:39:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:39:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:39:49 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:39:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:40:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-09 16:40:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:40:10 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:40:10 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:40:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:40:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:40:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:40:50 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:40:50 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - Statement - If (RDD_Reject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:40:53 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:40:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:41:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:41:11 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:41:23 - [MESSAGE][PASSED] - Text 'lachd@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:41:36 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:41:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:41:44 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:41:44 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:41:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:41:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:42:06 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:42:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:42:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:42:22 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531168939013.png]]
+
+2018-07-09 16:42:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:42:25 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:42:25 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:42:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:42:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:42:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:43:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:43:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:43:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:43:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:43:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:43:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:43:44 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:43:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:43:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-09 16:44:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:44:04 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-09 16:44:04 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:44:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:44:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:44:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:44:44 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:44:44 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpApprApproval"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-DocUpdate"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-Contract"): null
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-MeetingSchedule"): com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-09 16:44:47 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:44:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:45:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:45:03 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:45:16 - [MESSAGE][PASSED] - Text 'diazz@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:45:28 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:45:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:45:36 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:45:36 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:45:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:45:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:45:57 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:46:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:46:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:46:14 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169170807.png]]
+
+2018-07-09 16:46:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:46:17 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:46:17 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting: com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-09 16:46:33 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:46:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:46:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:46:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:47:09 - [MESSAGE][PASSED] - Text 'Cambridge' is set on object 'Object Repository/ECR/Meeting/location'
+
+2018-07-09 16:47:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:47:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:47:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:47:26 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-09 16:47:26 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:47:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:47:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:47:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:48:06 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:48:06 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - Statement - If (OpsReject == false): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:48:09 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:48:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:48:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:48:26 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:48:38 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:48:50 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:48:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:48:58 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:48:58 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:49:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:49:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:49:19 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:49:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:49:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:49:36 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169372719.png]]
+
+2018-07-09 16:49:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:49:39 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:49:39 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove: com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:49:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:49:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:50:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:50:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:50:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:50:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:50:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-09 16:50:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:51:00 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:51:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:51:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:51:14 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-09 16:51:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:51:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:51:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:51:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:51:57 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:51:57 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpApprApproval"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-DocUpdate"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-Contract"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-MeetingSchedule"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDReview"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSReview"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcReview"): null
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpRevReview"): com.helper.commonfunct.commonutilities.EXPReview_RDDReview_SPReview is PASSED
+
+2018-07-09 16:52:00 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:52:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:52:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:52:17 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:52:29 - [MESSAGE][PASSED] - Text 'sachb@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:52:41 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:52:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:52:49 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:52:49 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:52:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:52:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:53:11 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:53:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:53:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:53:27 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169604046.png]]
+
+2018-07-09 16:53:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:53:30 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:53:30 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.EXPReview_RDDReview_SPReview: com.helper.commonfunct.commonutilities.EXPReview_RDDReview_SPReview is PASSED
+
+2018-07-09 16:53:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:53:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:54:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:54:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:54:16 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-09 16:54:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:54:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:54:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:54:38 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.EXPReview_RDDReview_SPReview is PASSED
+
+2018-07-09 16:54:38 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:54:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:55:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:55:18 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:55:18 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpApprApproval"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-DocUpdate"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-Contract"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-MeetingSchedule"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDReview"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSReview"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcReview"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpRevReview"): null
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - Statement - Else: com.helper.commonfunct.commonutilities.pendingClinic is PASSED
+
+2018-07-09 16:55:21 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:55:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:55:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:55:37 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:55:50 - [MESSAGE][PASSED] - Text 'martw@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:56:02 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:56:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:56:10 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:56:10 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:56:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:56:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:56:31 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 16:56:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 16:56:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 16:56:47 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531169804593.png]]
+
+2018-07-09 16:56:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:56:50 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:56:50 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.pendingClinic: com.helper.commonfunct.commonutilities.pendingClinic is PASSED
+
+2018-07-09 16:57:07 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 16:57:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:57:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:57:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Meeting/CLINIC_OUTCOME' is clicked on
+
+2018-07-09 16:57:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:57:53 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/ECR/Meeting/OUTCOME_NOTES'
+
+2018-07-09 16:57:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 16:58:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 16:58:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:58:14 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.pendingClinic is PASSED
+
+2018-07-09 16:58:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:58:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 16:58:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:58:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 16:58:54 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 16:58:54 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RLApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-RDDApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-OPSApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-ExpSvcApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-SpApprApproval"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-DocUpdate"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - Statement - Else If (Status == "Pending-Contract"): null
+
+2018-07-09 16:58:57 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:58:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 16:59:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:59:13 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 16:59:25 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 16:59:38 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:59:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 16:59:46 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 16:59:46 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 16:59:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:59:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:00:07 - [MESSAGE][PASSED] - Text 'ECR-09Jul2018-5' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-09 17:00:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:00:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-09 17:00:23 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531170020272.png]]
+
+2018-07-09 17:00:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:00:26 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-09 17:00:26 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.ContractDisposition: com.helper.commonfunct.commonutilities.ContractDisposition is PASSED
+
+2018-07-09 17:00:42 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:00:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:00:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:01:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:01:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/createContract' is clicked on
+
+2018-07-09 17:01:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/createContract' is clicked on
+
+2018-07-09 17:01:37 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/Approve-Reject/contractNotes'
+
+2018-07-09 17:01:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:01:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 17:01:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:02:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:02:12 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:02:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:02:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:02:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Approve-Reject/dispositionOption' is clicked on
+
+2018-07-09 17:02:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:02:59 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/Approve-Reject/disposition_comments'
+
+2018-07-09 17:03:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:03:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-09 17:03:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:03:21 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.ContractDisposition is PASSED
+
+2018-07-09 17:03:21 - [TEST_STEP][NOT_RUN] - com.helper.commonfunct.commonutilities.readWO: NOT_RUN: com.helper.commonfunct.commonutilities.readWO
+
+2018-07-09 17:03:21 - [MESSAGE][NOT_RUN] - NOT_RUN: com.helper.commonfunct.commonutilities.readWO
+
+2018-07-09 17:03:21 - [TEST_STEP][PASSED] - Statement - WOSTATUS == "Resolved-won": null
+
+2018-07-09 17:03:21 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-09 17:03:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:03:39 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-09 17:03:39 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:03:40 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:03:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:03:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:03:56 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:04:08 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:04:20 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:04:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:04:28 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:04:28 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:04:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:04:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:04:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:04:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:05:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:05:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:05:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:05:40 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_3.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:05:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:05:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:06:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:06:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:06:16 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:06:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:06:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:06:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:06:44 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:06:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:06:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:07:02 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:07:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:07:12 - [MESSAGE][PASSED] - Text 'The engagement you entered doesn't match' is present on page 
+
+2018-07-09 17:07:24 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2018-07-09 17:07:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:07:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:07:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:07:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:07:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 17:07:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:07:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:08:09 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:08:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:08:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:08:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:08:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:08:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:09:05 - [MESSAGE][PASSED] - All options with value 'PRD-87' are selected in object 'Object Repository/Generic/PlatformID' 
+
+2018-07-09 17:09:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:09:34 - [MESSAGE][PASSED] - All options with value 'RLS-2699' are selected in object 'Object Repository/Generic/PlatformVersion' 
+
+2018-07-09 17:09:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:09:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:09:53 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:10:01 - [MESSAGE][PASSED] - Text 'PL Team Leader' is present on page 
+
+2018-07-09 17:10:25 - [MESSAGE][PASSED] - All options with value 'higgr@pegasystems.com' are selected in object 'Object Repository/EngInfo/PLTL' 
+
+2018-07-09 17:10:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:10:55 - [MESSAGE][PASSED] - All options with value 'hendj@pegasystems.com' are selected in object 'Object Repository/EngInfo/PL' 
+
+2018-07-09 17:11:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:11:21 - [MESSAGE][PASSED] - All options with value 'panee@pegasystems.com' are selected in object 'Object Repository/EngInfo/RL' 
+
+2018-07-09 17:11:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:11:47 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531170704346.png]]
+
+2018-07-09 17:11:47 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:03:39 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-09 17:11:47 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:11:48 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:11:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:12:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:12:04 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:12:16 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:12:28 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:12:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:12:37 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:12:37 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:12:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:12:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:12:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:13:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:13:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:13:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:13:31 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:13:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:13:48 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_3.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:13:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:13:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:14:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:14:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:14:24 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:14:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:14:35 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:14:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:14:52 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:14:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:15:04 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:15:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:15:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:15:20 - [MESSAGE][PASSED] - Text 'The engagement you entered doesn't match' is present on page 
+
+2018-07-09 17:15:32 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2018-07-09 17:15:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:15:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:15:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:15:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:15:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 17:15:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:16:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:16:18 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:16:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:16:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:16:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:16:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:17:13 - [MESSAGE][PASSED] - All options with value 'PRD-87' are selected in object 'Object Repository/Generic/PlatformID' 
+
+2018-07-09 17:17:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:17:42 - [MESSAGE][PASSED] - All options with value 'RLS-2699' are selected in object 'Object Repository/Generic/PlatformVersion' 
+
+2018-07-09 17:17:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:17:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:18:01 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:18:09 - [MESSAGE][PASSED] - Text 'PL Team Leader' is present on page 
+
+2018-07-09 17:18:33 - [MESSAGE][PASSED] - All options with value 'higgr@pegasystems.com' are selected in object 'Object Repository/EngInfo/PLTL' 
+
+2018-07-09 17:18:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:19:02 - [MESSAGE][PASSED] - All options with value 'hendj@pegasystems.com' are selected in object 'Object Repository/EngInfo/PL' 
+
+2018-07-09 17:19:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:19:28 - [MESSAGE][PASSED] - All options with value 'panee@pegasystems.com' are selected in object 'Object Repository/EngInfo/RL' 
+
+2018-07-09 17:19:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:19:55 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531171192070.png]]
+
+2018-07-09 17:19:55 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:11:47 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-09 17:19:55 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:19:55 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:19:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:20:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:20:12 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:20:24 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:20:36 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:20:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:20:44 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:20:44 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:20:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:20:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:21:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:21:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:21:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:21:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:21:38 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:21:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:21:55 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_3.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:22:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:22:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:22:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:22:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:22:32 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:22:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:22:43 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:22:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:23:00 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:23:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:23:11 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:23:18 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:23:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:23:27 - [MESSAGE][PASSED] - Text 'The engagement you entered doesn't match' is present on page 
+
+2018-07-09 17:23:40 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2018-07-09 17:23:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:23:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:23:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:23:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 17:24:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:24:25 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:24:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:24:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:25:21 - [MESSAGE][PASSED] - All options with value 'PRD-87' are selected in object 'Object Repository/Generic/PlatformID' 
+
+2018-07-09 17:25:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:25:50 - [MESSAGE][PASSED] - All options with value 'RLS-2699' are selected in object 'Object Repository/Generic/PlatformVersion' 
+
+2018-07-09 17:25:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:26:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:26:09 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:26:17 - [MESSAGE][PASSED] - Text 'PL Team Leader' is present on page 
+
+2018-07-09 17:26:41 - [MESSAGE][PASSED] - All options with value 'higgr@pegasystems.com' are selected in object 'Object Repository/EngInfo/PLTL' 
+
+2018-07-09 17:26:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:27:10 - [MESSAGE][PASSED] - All options with value 'hendj@pegasystems.com' are selected in object 'Object Repository/EngInfo/PL' 
+
+2018-07-09 17:27:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:27:36 - [MESSAGE][PASSED] - All options with value 'panee@pegasystems.com' are selected in object 'Object Repository/EngInfo/RL' 
+
+2018-07-09 17:27:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:28:03 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531171679766.png]]
+
+2018-07-09 17:28:03 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:19:55 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-09 17:28:03 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:28:03 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:28:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:28:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:28:19 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:28:32 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:28:44 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:28:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:28:52 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:28:52 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:28:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:28:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:29:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:29:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:29:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:29:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:29:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:30:03 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_3.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:30:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:30:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:30:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:30:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:30:40 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:30:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:30:51 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:30:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:31:08 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:31:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:31:19 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:31:26 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:31:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:31:35 - [MESSAGE][PASSED] - Text 'The engagement you entered doesn't match' is present on page 
+
+2018-07-09 17:31:48 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2018-07-09 17:31:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:31:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:32:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 17:32:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:32:33 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:32:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:32:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:33:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:33:28 - [MESSAGE][PASSED] - All options with value 'PRD-87' are selected in object 'Object Repository/Generic/PlatformID' 
+
+2018-07-09 17:33:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:33:58 - [MESSAGE][PASSED] - All options with value 'RLS-2699' are selected in object 'Object Repository/Generic/PlatformVersion' 
+
+2018-07-09 17:34:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:34:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:34:17 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:34:24 - [MESSAGE][PASSED] - Text 'PL Team Leader' is present on page 
+
+2018-07-09 17:34:49 - [MESSAGE][PASSED] - All options with value 'higgr@pegasystems.com' are selected in object 'Object Repository/EngInfo/PLTL' 
+
+2018-07-09 17:34:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:35:18 - [MESSAGE][PASSED] - All options with value 'hendj@pegasystems.com' are selected in object 'Object Repository/EngInfo/PL' 
+
+2018-07-09 17:35:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:35:44 - [MESSAGE][PASSED] - All options with value 'panee@pegasystems.com' are selected in object 'Object Repository/EngInfo/RL' 
+
+2018-07-09 17:35:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:36:11 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172167526.png]]
+
+2018-07-09 17:36:11 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:28:03 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-09 17:36:11 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:36:11 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:36:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:36:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:36:27 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:36:39 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:36:52 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:37:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:37:00 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:37:00 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-09 17:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:37:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:37:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:37:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:37:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:37:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:37:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:38:11 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_3.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:38:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:38:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:38:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:38:47 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:38:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:38:58 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:39:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:39:15 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:39:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:39:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:39:34 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:39:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:39:43 - [MESSAGE][PASSED] - Text 'The engagement you entered doesn't match' is present on page 
+
+2018-07-09 17:39:55 - [MESSAGE][PASSED] - Text 'AUTOTEST1' is set on object 'Object Repository/Generic/ENG_DESC'
+
+2018-07-09 17:39:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 17:40:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:40:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:40:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:40:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-09 17:40:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:40:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:40:41 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:40:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:40:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:40:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:41:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:41:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:41:36 - [MESSAGE][PASSED] - All options with value 'PRD-87' are selected in object 'Object Repository/Generic/PlatformID' 
+
+2018-07-09 17:41:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:42:05 - [MESSAGE][PASSED] - All options with value 'RLS-2699' are selected in object 'Object Repository/Generic/PlatformVersion' 
+
+2018-07-09 17:42:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:42:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:42:25 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:42:32 - [MESSAGE][PASSED] - Text 'PL Team Leader' is present on page 
+
+2018-07-09 17:42:56 - [MESSAGE][PASSED] - All options with value 'higgr@pegasystems.com' are selected in object 'Object Repository/EngInfo/PLTL' 
+
+2018-07-09 17:43:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:43:25 - [MESSAGE][PASSED] - All options with value 'hendj@pegasystems.com' are selected in object 'Object Repository/EngInfo/PL' 
+
+2018-07-09 17:43:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:43:52 - [MESSAGE][PASSED] - All options with value 'panee@pegasystems.com' are selected in object 'Object Repository/EngInfo/RL' 
+
+2018-07-09 17:43:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:44:18 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172655129.png]]
+
+2018-07-09 17:44:18 - [MESSAGE][FAILED] - Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:36:11 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)"/>
+         <system-out><![CDATA[2018-07-09 17:44:18 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)
+
+2018-07-09 17:44:18 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:44:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:44:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:44:35 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:44:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:44:59 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:45:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:45:05 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:45:05 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.CreateECR: Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)
+
+2018-07-09 17:45:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:45:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:45:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180709_155928\\1531172743597.png]]
+
+2018-07-09 17:45:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:44:18 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to click on object 'Object Repository/Generic/New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/New' located by 'By.xpath: //a[@class='menu-item-anchor menu-item-expand']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ECR/TestCases/TC_ECR_Create_Reject" classname="Test Cases/ECR/TestCases/TC_ECR_Create_Reject" status="ERROR">
+         <error type="ERROR" message="Test Cases/ECR/TestCases/TC_ECR_Create_Reject FAILED because (of) java.lang.NumberFormatException: For input string: &quot;&quot;"/>
+         <system-out><![CDATA[2018-07-09 17:45:46 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/TC_ECR_Create_Reject: Test Cases/ECR/TestCases/TC_ECR_Create_Reject FAILED because (of) java.lang.NumberFormatException: For input string: ""
+
+2018-07-09 17:45:48 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:45:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 17:46:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 17:46:04 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-09 17:46:16 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-09 17:46:28 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:46:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-09 17:46:37 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-09 17:46:37 - [TEST_STEP][ERROR] - com.helper.commonfunct.commonutilities.CreateECR: For input string: ""
+
+2018-07-09 17:46:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 17:46:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-09 17:46:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-09 17:47:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-09 17:47:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:47:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-09 17:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-09 17:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-09 17:47:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-09 17:47:48 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_1.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-09 17:47:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:47:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-09 17:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-09 17:48:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:48:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:48:25 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-09 17:48:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:48:36 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-09 17:48:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:48:53 - [MESSAGE][PASSED] - Text 'BOFA' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-09 17:48:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:49:04 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-09 17:49:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 17:49:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 17:49:20 - [MESSAGE][WARNING] - Text 'The engagement you entered doesn't match' is not present on page 
+
+2018-07-09 17:49:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:49:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:49:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-09 17:49:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:49:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Staff Augmentation'
+
+2018-07-09 17:49:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:49:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-09 17:50:08 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-09 17:50:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:50:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-09 17:50:30 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-09 17:50:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:50:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 17:50:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generic/WOID' is: 'ECR-09Jul2018-11'
+
+2018-07-09 17:50:46 - [MESSAGE][ERROR] - For input string: ""]]></system-out>
+         <system-err><![CDATA[2018-07-09 17:45:46 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/TC_ECR_Create_Reject: Test Cases/ECR/TestCases/TC_ECR_Create_Reject FAILED because (of) java.lang.NumberFormatException: For input string: ""]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 15:59:32 - [TEST_SUITE][FAILED] - ECR: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-09 15:59:32 - [TEST_SUITE][FAILED] - ECR: Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven FAILED because (of) Unable to select option by value 'langr1@pegasystems.com' of object 'Object Repository/EngInfo/RD'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: langr1@pegasystems.com
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L22622WUS', ip: '10.2.204.225', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

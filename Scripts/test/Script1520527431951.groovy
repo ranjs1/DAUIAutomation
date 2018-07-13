@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.CLINIC)
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
+not_run: WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
 not_run: String TestDataFile = System.getProperty('user.dir') + location
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.readWO'(findTestData('ECR/ECRTestData').getValue(1, 1), '\\Data Files\\ECR\\TestDataECR.xlsx')
+CustomKeywords.'com.helper.commonfunct.commonutilities.scheduleMeeting'()
 
 not_run: println(TestDataFile)
 

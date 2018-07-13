@@ -22,11 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('BEP/Create_Approve_Reject/Create_BEP_NoOutput'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
+
+not_run: GlobalVariable.WOID = 'BEP-18May2018-11'
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.withdraw'()
-
-WebUI.delay(3)
 

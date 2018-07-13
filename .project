@@ -89,7 +89,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1525332802693</id>
+=======
+			<id>1524580689473</id>
+>>>>>>> nipin_updatingglobalvariable
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -98,7 +102,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1525332802716</id>
+=======
+			<id>1524580689487</id>
+>>>>>>> nipin_updatingglobalvariable
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -107,7 +115,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1530850570260</id>
+=======
+			<id>1530898850677</id>
+>>>>>>> nipin_updatingglobalvariable
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -116,7 +128,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1530850570315</id>
+=======
+			<id>1530898850697</id>
+>>>>>>> nipin_updatingglobalvariable
 			<name></name>
 			<type>6</type>
 			<matcher>

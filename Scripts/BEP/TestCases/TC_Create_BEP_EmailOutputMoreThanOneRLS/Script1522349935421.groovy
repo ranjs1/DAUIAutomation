@@ -19,13 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+GlobalVariable.morethanOneRLS = true
+
 WebUI.callTestCase(findTestCase('BEP/Create_Approve_Reject/Create_BEP_EmailOutput'), [:], FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.SendEmail = false
 
 GlobalVariable.CreateECR = true
-
-GlobalVariable.morethanOneRLS = true
 
 WebUI.callTestCase(findTestCase('BEP/Create_Approve_Reject/All_Approval_Reject'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -57,15 +57,22 @@ public class investmentCommonAction {
 		WebUI.setText(findTestObject('Object Repository/InvestmentObjectRepository/Eng_Name'), eng)
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/Eng_Name'), Keys.chord(Keys.TAB))
+<<<<<<< HEAD
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/profitCentre'), findTestData('NewEngagements').getValue(4, 1))
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/engDescription'), findTestData('NewEngagements').getValue(6, 1))
 		WebUI.delay(2)
+=======
+
+		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/profitCentre'), findTestData('NewEngagements').getValue(4, 1))
+		WebUI.delay(2)
+>>>>>>> nipin_updatingglobalvariable
 
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/ledBy'), findTestData('NewEngagements').getValue(5, 1))
 		WebUI.delay(2)
 
+<<<<<<< HEAD
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/EL'), findTestData('NewEngagements').getValue(7, 1))
 		WebUI.delay(2)
 
@@ -73,6 +80,9 @@ public class investmentCommonAction {
 		WebUI.delay(2)
 
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/RL'), findTestData('NewEngagements').getValue(9, 1))
+=======
+		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/engDescription'), findTestData('NewEngagements').getValue(6, 1))
+>>>>>>> nipin_updatingglobalvariable
 		WebUI.delay(2)
 
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/RD'), findTestData('NewEngagements').getValue(10, 1))
@@ -94,6 +104,7 @@ public class investmentCommonAction {
 		WebUI.delay(2)
 
 	}
+<<<<<<< HEAD
 
 	@Keyword
 	def createDateOnlyInvestment(String woid) {
@@ -242,4 +253,6 @@ public class investmentCommonAction {
 	@Keyword
 	def verifyDateOnlyExtendInv(String woid) {
 	}
+=======
+>>>>>>> nipin_updatingglobalvariable
 }

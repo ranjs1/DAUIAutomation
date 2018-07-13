@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='Recall BEP']</value>
+         <value>//a[contains(.,'Recall')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='Recall BEP']</value>
+      <value>//a[contains(.,'Recall')]</value>
    </webElementProperties>
 </WebElementEntity>

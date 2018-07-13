@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR,Chrome 66.0.3359.117,,2018-05-03 23:25:43,2018-05-03 23:51:21,25m - 38.578s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven,Chrome 66.0.3359.117,,2018-05-03 23:25:43,2018-05-03 23:45:43,19m - 59.414s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 66.0.3359.117,,2018-05-03 23:25:46,2018-05-03 23:26:12,25.862s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 66.0.3359.117,,2018-05-03 23:26:12,2018-05-03 23:31:31,5m - 19.667s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 66.0.3359.117,,2018-05-03 23:31:31,2018-05-03 23:31:48,16.400s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 66.0.3359.117,,2018-05-03 23:31:48,2018-05-03 23:45:43,13m - 55.227s,PASSED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve,Chrome 66.0.3359.117,,2018-05-03 23:45:43,2018-05-03 23:46:39,56.168s,FAILED
+callTestCase,Chrome 66.0.3359.117,,2018-05-03 23:45:44,2018-05-03 23:46:39,55.459s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Reject,Chrome 66.0.3359.117,,2018-05-03 23:46:39,2018-05-03 23:47:35,55.611s,FAILED
+callTestCase,Chrome 66.0.3359.117,,2018-05-03 23:46:40,2018-05-03 23:47:35,54.946s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Meeting_Create_Reject,Chrome 66.0.3359.117,,2018-05-03 23:47:35,2018-05-03 23:48:30,54.923s,FAILED
+"Statement - Filelocation = ""//Data Files//ECR//BSWLatest.xlsm""",Chrome 66.0.3359.117,,2018-05-03 23:47:35,2018-05-03 23:47:35,0.001s,PASSED
+callTestCase,Chrome 66.0.3359.117,,2018-05-03 23:47:35,2018-05-03 23:48:30,54.449s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/ECR__Approve_DataDriven,Chrome 66.0.3359.117,,2018-05-03 23:48:30,2018-05-03 23:51:19,2m - 48.907s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 66.0.3359.117,,2018-05-03 23:48:31,2018-05-03 23:48:52,21.153s,PASSED
+Statement - WOID = WOID,Chrome 66.0.3359.117,,2018-05-03 23:48:52,2018-05-03 23:48:52,0.001s,PASSED
+com.helper.commonfunct.commonutilities.search,Chrome 66.0.3359.117,,2018-05-03 23:48:52,2018-05-03 23:49:14,22.381s,PASSED
+switchToFrame,Chrome 66.0.3359.117,,2018-05-03 23:49:14,2018-05-03 23:49:16,2.077s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 66.0.3359.117,,2018-05-03 23:49:16,2018-05-03 23:49:33,17.316s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 66.0.3359.117,,2018-05-03 23:49:33,2018-05-03 23:51:19,1m - 45.045s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR,Chrome 67.0.3396.87,,2018-07-03 11:23:44,2018-07-03 11:32:15,8m - 31.176s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-03 11:23:44,2018-07-03 11:32:10,8m - 25.137s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-03 11:23:47,2018-07-03 11:24:42,55.190s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-03 11:24:42,2018-07-03 11:32:10,7m - 27.458s,FAILED

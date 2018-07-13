@@ -23,9 +23,14 @@ WebUI.openBrowser(findTestData('URL').getValue(1, 1))
 
 WebUI.maximizeWindow()
 
+<<<<<<< HEAD
 'Login as Practice Leader'
 CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
         'Role-UserName-Password').getValue(3, 2))
+=======
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
+        'Role-UserName-Password').getValue(3, 2), '')
+>>>>>>> nipin_updatingglobalvariable
 
 WebUI.delay(2)
 

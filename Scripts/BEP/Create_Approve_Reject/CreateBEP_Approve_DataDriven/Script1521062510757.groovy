@@ -21,40 +21,40 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.helper.commonfunct.commonutilities as CUTILS
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(PL)
 
 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.Estimate'(Filepath, Org, Acc, PL, RD, RL, PLTL, OutputType, TestCaseno, 
     TestDataFileLocation, true)
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 
-while (GlobalVariable.WOSTATUS.contains('PENDING')) {
-    for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {
-        GlobalVariable.Status = GlobalVariable.AssignmentList[j].text
+
+while (GlobalVariable.WOSTATUS.contains('PENDING') && (GlobalVariable.AssignmentList.size() > 0)) {
+    /*for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {*/
+        GlobalVariable.Status = GlobalVariable.AssignmentList[0].text
 
         println(GlobalVariable.Status)
 
         if (GlobalVariable.Status == 'Pending-RDApproval') {
             if (GlobalVariable.RDReject == false) {
                 if (GlobalVariable.RouteToRL == true) {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
+                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(RD)
 
                     CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
                     CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RDapprove'()
 
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                    
                 } else {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
+                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(RD)
 
                     CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
                     CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.noToRL'()
 
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                    
                 }
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RD, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(RD)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -64,19 +64,19 @@ while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 print(GlobalVariable.RDReject)
 
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                
             }
         } else if (GlobalVariable.Status == 'Pending-RLApproval') {
             if (GlobalVariable.RLReject == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(RL)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
                 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RLapprove'()
 
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(RL)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
@@ -86,53 +86,54 @@ while (GlobalVariable.WOSTATUS.contains('PENDING')) {
 
                 print(GlobalVariable.RLReject)
 
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                
             }
         } else if (GlobalVariable.Status == 'Pending-Update') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(PL)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
             CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.Update'()
 
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+            
         } else if (GlobalVariable.Status == 'Completed') {
             println('check for apprpval')
         } else if (GlobalVariable.Status == 'Pending-Meeting') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, RL, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(PL)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
             CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RLapprove'()
 
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+            
         } else if (GlobalVariable.Status == 'Pending-EmailCustomer') {
             if (GlobalVariable.SendEmail == true) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(PL)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
                 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.EmailCustomer'()
 
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, PL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(PL)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
                 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.SkipEmail'()
 
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                
             }
         } else {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, OPS, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(OPS)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
             CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.GSOpsReview'()
 
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+            
         }
-    }
+		/* }for loop end braces */
+	CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 }
 

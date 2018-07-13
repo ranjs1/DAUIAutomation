@@ -25,13 +25,15 @@ import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
 import org.openqa.selenium.support.ui.ExpectedCondition as ExpectedCondition
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.OPS)
 
 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 0)
+WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.ContractDisposition'()
+CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+
+not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.scheduleMeeting'()
 
 not_run: while (GlobalVariable.WOSTATUS.contains('PENDING')) {
     not_run: for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {

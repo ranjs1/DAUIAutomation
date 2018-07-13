@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR,Chrome 67.0.3396.87,,2018-06-26 16:22:52,2018-06-26 16:32:55,10m - 2.360s,ERROR
+,,,,,,
+Test Cases/ECR/TestCases/ECR__Approve_DataDriven,Chrome 67.0.3396.87,,2018-06-26 16:22:53,2018-06-26 16:32:50,9m - 56.733s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-06-26 16:22:55,2018-06-26 16:23:44,49.096s,PASSED
+Statement - WOID = WOID,Chrome 67.0.3396.87,,2018-06-26 16:23:44,2018-06-26 16:23:44,0.004s,PASSED
+com.helper.commonfunct.commonutilities.search,Chrome 67.0.3396.87,,2018-06-26 16:23:44,2018-06-26 16:24:25,41.320s,PASSED
+switchToFrame,Chrome 67.0.3396.87,,2018-06-26 16:24:25,2018-06-26 16:24:32,6.121s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 67.0.3396.87,,2018-06-26 16:24:32,2018-06-26 16:25:09,37.478s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-06-26 16:25:09,2018-06-26 16:32:50,7m - 40.891s,PASSED

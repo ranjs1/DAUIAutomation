@@ -19,119 +19,98 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'The first 3 steps whcih are disabled are addded to test the test case indepently. By Default they should be disabled'
 not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
 
 not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
 not_run: WebUI.switchToFrame(findTestObject('Generic/FRAME1'), 5)
 
-not_run: CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+while (GlobalVariable.WOSTATUS.contains('PENDING') && (GlobalVariable.AssignmentList.size() > 0)) {
+    /*   for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {*/
+    GlobalVariable.Status = GlobalVariable.AssignmentList[0].text
 
-while (GlobalVariable.WOSTATUS.contains('PENDING')) {
-    for (int j = 0; j < GlobalVariable.AssignmentList.size(); j++) {
-        GlobalVariable.Status = GlobalVariable.AssignmentList[j].text
+    println(GlobalVariable.Status)
 
-        println(GlobalVariable.Status)
+    if (GlobalVariable.Status == 'Pending-RDApproval') {
+        if (GlobalVariable.RDRecall == false) {
+            if (GlobalVariable.RouteToRL == true) {
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.RD)
 
-        if (GlobalVariable.Status == 'Pending-RDApproval') {
-            if (GlobalVariable.RDRecall == false) {
-                if (GlobalVariable.RouteToRL == true) {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, 
-                        GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                    CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RDapprove'()
-
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-                } else {
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RD, 
-                        GlobalVariable.pwd)
-
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                    CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.noToRL'()
-
-                    CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-                }
+                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RDapprove'()
             } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
+                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.RD)
 
                 CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.recall'()
-
-                GlobalVariable.RDRecall = false
-
-                print(GlobalVariable.RDRecall)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.noToRL'()
             }
-        } else if (GlobalVariable.Status == 'Pending-RLApproval') {
-            if (GlobalVariable.RLRecall == false) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RL, GlobalVariable.pwd)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RLapprove'()
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-            } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.recall'()
-
-                GlobalVariable.RLRecall = false
-
-                print(GlobalVariable.RLRecall)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-            }
-        } else if (GlobalVariable.Status == 'Pending-Update') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
+        } else {
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.UpdateAfterRecall'()
+            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.recall'()
 
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-        } else if (GlobalVariable.Status == 'Pending-Meeting') {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.RL, GlobalVariable.pwd)
+            GlobalVariable.RDRecall = false
+
+            print(GlobalVariable.RDRecall)
+        }
+    } else if (GlobalVariable.Status == 'Pending-RLApproval') {
+        if (GlobalVariable.RLRecall == false) {
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.RL)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
             CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RLapprove'()
-
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-        } else if (GlobalVariable.Status == 'Pending-EmailCustomer') {
-            if (GlobalVariable.SendEmail == true) {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.EmailCustomer'()
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-            } else {
-                CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
-
-                CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.SkipEmail'()
-
-                CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
-            }
         } else {
-            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.OPS, GlobalVariable.pwd)
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
 
             CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
 
-            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.GSOpsReview'()
+            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.recall'()
 
-            CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
+            GlobalVariable.RLRecall = false
+
+            print(GlobalVariable.RLRecall)
         }
+    } else if (GlobalVariable.Status == 'Pending-Update') {
+        CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
+
+        CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
+
+        CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.UpdateAfterRecall'()
+    } else if (GlobalVariable.Status == 'Pending-Meeting') {
+        CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.RL)
+
+        CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
+
+        CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.RLapprove'()
+    } else if (GlobalVariable.Status == 'Pending-EmailCustomer') {
+        if (GlobalVariable.SendEmail == true) {
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
+
+            CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
+
+            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.EmailCustomer'()
+        } else {
+            CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
+
+            CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
+
+            CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.SkipEmail'()
+        }
+    } else {
+        CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.OPS)
+
+        CustomKeywords.'com.helper.commonfunct.commonutilities.search'()
+
+        CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.GSOpsReview'()
     }
+    
+    /* }for loop end braces */
+    CustomKeywords.'com.helper.commonfunct.commonutilities.searchStatus'()
 }
 
