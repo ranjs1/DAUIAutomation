@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@for='ClinicMeetingActionApprove']</value>
+         <value>//label[@for='ClinicMeetingActionApproved']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[@for='ClinicMeetingActionApprove']</value>
+      <value>//label[@for='ClinicMeetingActionApproved']</value>
    </webElementProperties>
 </WebElementEntity>

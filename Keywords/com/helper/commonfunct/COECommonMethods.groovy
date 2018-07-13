@@ -26,68 +26,61 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class COECommonMethods {
-	
-	
-	
-	@Keyword
-	def woid()
-			{
-			GlobalVariable.WOID=WebUI.getText(findTestObject('Generic/WO'))
-			print(GlobalVariable.WOID)
-			}
-		
-	@Keyword
-	def WOstatus()
-			{
-			
-			GlobalVariable.AssignmentList = WebUI.findWebElements(findTestObject('Generic/AssignmentStatus'), 1)
-			println GlobalVariable.AssignmentList.size()
-			GlobalVariable.WOSTATUS=WebUI.getText(findTestObject('ECR/Generic/WOSTATUS'))
-			print(GlobalVariable.WOSTATUS)
-					
-			}
-			
-			
-	@Keyword
-	def closeWO()
-			{
-			WebUI.click(findTestObject('Object Repository/Generic/CLOSE_WORK_OBJECT'))
-			}
-			
-	@Keyword
-	def search()
-			{
-			WebUI.maximizeWindow()
-			WebUI.delay(5)
-			WebUI.setText(findTestObject('Object Repository/EngInfo/search'), GlobalVariable.WOID)
-			WebUI.delay(2)
-			WebUI.sendKeys(findTestObject('Object Repository/EngInfo/search'), Keys.chord(Keys.ENTER))
-			WebUI.delay(5)
-			println GlobalVariable.WOID
-			}
-			@Keyword
-			
-			
-			def serviceTeam(String PL, String PLTL, String RD, String RL)
-			{
-				WebUI.delay(5)
-				WebUI.click(findTestObject('Object Repository/EngInfo/PL'),PL)
-				WebUI.delay(5)
-				WebUI.sendKeys(findTestObject('Object Repository/EngInfo/PL'),PL)
-				WebUI.delay(5)
-				WebUI.click(findTestObject('Object Repository/EngInfo/PLTL'),PLTL)
-				WebUI.delay(5)
-				WebUI.sendKeys(findTestObject('Object Repository/EngInfo/PLTL'),PLTL)
-				WebUI.delay(5)
-				WebUI.click(findTestObject('Object Repository/EngInfo/RL'),RL)
-				WebUI.delay(5)
-				WebUI.sendKeys(findTestObject('Object Repository/EngInfo/RL'), RL)
-				WebUI.delay(5)
-				WebUI.click(findTestObject('Object Repository/EngInfo/RD'),RD)
-				WebUI.delay(5)
-				WebUI.sendKeys(findTestObject('Object Repository/EngInfo/RD'),RD)
-				WebUI.delay(5)
-				}
 
+
+
+	@Keyword
+	def woid() {
+		GlobalVariable.WOID=WebUI.getText(findTestObject('Generic/WO'))
+		print(GlobalVariable.WOID)
+	}
+
+	@Keyword
+	def WOstatus() {
+
+		GlobalVariable.AssignmentList = WebUI.findWebElements(findTestObject('Generic/AssignmentStatus'), 1)
+		println GlobalVariable.AssignmentList.size()
+		GlobalVariable.WOSTATUS=WebUI.getText(findTestObject('ECR/Generic/WOSTATUS'))
+		print(GlobalVariable.WOSTATUS)
+	}
+
+
+	@Keyword
+	def closeWO() {
+		WebUI.click(findTestObject('Object Repository/Generic/CLOSE_WORK_OBJECT'))
+	}
+
+	@Keyword
+	def search() {
+		WebUI.maximizeWindow()
+		WebUI.delay(5)
+		WebUI.setText(findTestObject('Object Repository/EngInfo/search'), GlobalVariable.WOID)
+		WebUI.delay(2)
+		WebUI.sendKeys(findTestObject('Object Repository/EngInfo/search'), Keys.chord(Keys.ENTER))
+		WebUI.delay(5)
+		println GlobalVariable.WOID
+	}
+	@Keyword
+
+
+	def serviceTeam(String PL, String PLTL, String RD, String RL) {
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/EngInfo/PL'),PL)
+		WebUI.delay(5)
+		WebUI.sendKeys(findTestObject('Object Repository/EngInfo/PL'),PL)
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/EngInfo/PLTL'),PLTL)
+		WebUI.delay(5)
+		WebUI.sendKeys(findTestObject('Object Repository/EngInfo/PLTL'),PLTL)
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/EngInfo/RL'),RL)
+		WebUI.delay(5)
+		WebUI.sendKeys(findTestObject('Object Repository/EngInfo/RL'), RL)
+		WebUI.delay(5)
+		WebUI.click(findTestObject('Object Repository/EngInfo/RD'),RD)
+		WebUI.delay(5)
+		WebUI.sendKeys(findTestObject('Object Repository/EngInfo/RD'),RD)
+		WebUI.delay(5)
+	}
 }
 

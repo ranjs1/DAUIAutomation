@@ -29,7 +29,7 @@ import WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.Keys as Keys
 
 public class investmentCommonAction {
-	
+
 	@Keyword
 	def createNewInvestment(String org, String acc, String eng, String profitCentre, String ledBy, String engDescription) {
 		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/CreateNewInvestment'))
@@ -51,17 +51,14 @@ public class investmentCommonAction {
 		WebUI.setText(findTestObject('Object Repository/InvestmentObjectRepository/Eng_Name'), eng)
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/Eng_Name'), Keys.chord(Keys.TAB))
-		
+
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/profitCentre'), findTestData('NewEngagements').getValue(4, 1))
 		WebUI.delay(2)
-		
+
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/ledBy'), findTestData('NewEngagements').getValue(5, 1))
 		WebUI.delay(2)
-		
+
 		WebUI.sendKeys(findTestObject('InvestmentObjectRepository/engDescription'), findTestData('NewEngagements').getValue(6, 1))
 		WebUI.delay(2)
 	}
-
-
-
 }

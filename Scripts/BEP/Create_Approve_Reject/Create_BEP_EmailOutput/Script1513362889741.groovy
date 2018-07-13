@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.helper.commonfunct.commonutilities as CUTILS
 
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.URL, GlobalVariable.PL, GlobalVariable.pwd)
+CustomKeywords.'com.helper.commonfunct.commonutilities.login'(GlobalVariable.PL)
 
 CustomKeywords.'com.helper.commonfunct.BEP_CommonMethod.Estimate'('\\Data Files\\BEP\\Estimate.xlsm', GlobalVariable.ORG, 
     GlobalVariable.ACC, GlobalVariable.PL, GlobalVariable.RD, GlobalVariable.RL, GlobalVariable.PLTL, 'email', '', '', false)

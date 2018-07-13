@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://vtcpfusionqa.rpega.com:9030/tcpfusionqa/PRServlet/WRr0lyMCuypQncoWBWzmItjouokRpn0jivm_loYZWDI9KRrZ8xRc6A%5B%5B*/!STANDARD')
+WebUI.navigateToUrl('https://vdaqa.rpega.com:9030/daqa/PRServlet')
 
 WebUI.setText(findTestObject('Rate Card Automation Test Case 3 Obj Repo/Page_Pega 7/input_UserIdentifier'), 'pogoa@pegasystems.com')
 

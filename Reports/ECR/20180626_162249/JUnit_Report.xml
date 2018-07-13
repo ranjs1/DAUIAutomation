@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR" time="602" tests="0" failures="0" errors="1">
+   <testsuite name="ECR" tests="0" failures="0" errors="1" time="602" timestamp="2018-06-26 16:22:52" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249"/>
+         <property name="logFiles" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\execution0.log"/>
+         <property name="attachments" value="C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530044659255.png, C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530044800747.png, C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530045032409.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.2.176.65"/>
+         <property name="sessionId" value="478b7a594d81702ed5103e384834a03d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/TestCases/ECR__Approve_DataDriven" classname="Test Cases/ECR/TestCases/ECR__Approve_DataDriven" status="ERROR">
+         <error type="ERROR" message="Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) Variable 'EXP' is not defined for test case."/>
+         <system-out><![CDATA[2018-06-26 16:22:53 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/ECR__Approve_DataDriven: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) Variable 'EXP' is not defined for test case.
+
+2018-06-26 16:22:55 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:23:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 16:23:10 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-06-26 16:23:23 - [MESSAGE][PASSED] - Text 'hendj@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-06-26 16:23:35 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:23:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:23:44 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:23:44 - [TEST_STEP][PASSED] - Statement - WOID = WOID: null
+
+2018-06-26 16:23:44 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:23:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 16:23:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:24:06 - [MESSAGE][PASSED] - Text 'ECR-09Apr2018-19' is set on object 'Object Repository/EngInfo/search'
+
+2018-06-26 16:24:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 16:24:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-06-26 16:24:22 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530044659255.png]]
+
+2018-06-26 16:24:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:24:25 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:24:25 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Generic/FRAME1'
+
+2018-06-26 16:24:32 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:24:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:24:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 16:24:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:25:09 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:25:09 - [TEST_STEP][PASSED] - Statement - While (WOSTATUS.contains("PENDING") && AssignmentList.size() > 0): null
+
+2018-06-26 16:25:09 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-06-26 16:25:12 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-06-26 16:25:12 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-06-26 16:25:12 - [TEST_STEP][PASSED] - Statement - If (RDD_Reject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-06-26 16:25:12 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:25:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 16:25:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 16:25:31 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-06-26 16:25:44 - [MESSAGE][PASSED] - Text 'lachd@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-06-26 16:25:56 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:26:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:26:06 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:26:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:26:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 16:26:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:26:28 - [MESSAGE][PASSED] - Text 'ECR-09Apr2018-19' is set on object 'Object Repository/EngInfo/search'
+
+2018-06-26 16:26:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 16:26:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-06-26 16:26:44 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530044800747.png]]
+
+2018-06-26 16:26:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:26:47 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:26:47 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-06-26 16:26:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:27:08 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-06-26 16:27:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:27:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:27:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:27:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:27:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:27:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-06-26 16:27:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:28:06 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-06-26 16:28:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:28:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-06-26 16:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-06-26 16:28:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:28:26 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-06-26 16:28:26 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:28:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:28:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 16:28:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:29:00 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:29:00 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-06-26 16:29:03 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-06-26 16:29:03 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-06-26 16:29:03 - [TEST_STEP][PASSED] - Statement - If (OpsReject == false): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-06-26 16:29:03 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:29:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-26 16:29:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 16:29:21 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-06-26 16:29:34 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-06-26 16:29:46 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:29:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-06-26 16:29:56 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-06-26 16:29:56 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:30:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 16:30:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:30:19 - [MESSAGE][PASSED] - Text 'ECR-09Apr2018-19' is set on object 'Object Repository/EngInfo/search'
+
+2018-06-26 16:30:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 16:30:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-06-26 16:30:35 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180626_162249\\1530045032409.png]]
+
+2018-06-26 16:30:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:30:38 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-06-26 16:30:38 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove: com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-06-26 16:30:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:30:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 16:31:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 16:31:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:31:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:31:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:31:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-06-26 16:31:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:32:01 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-06-26 16:32:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:32:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:32:15 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-06-26 16:32:15 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:32:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 16:32:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-26 16:32:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-26 16:32:47 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-06-26 16:32:47 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-06-26 16:32:50 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-06-26 16:32:50 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): null
+
+2018-06-26 16:32:50 - [TEST_STEP][PASSED] - Statement - If (EXP_SVC_Reject == false): null
+
+2018-06-26 16:32:50 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: null]]></system-out>
+         <system-err><![CDATA[2018-06-26 16:22:53 - [TEST_CASE][ERROR] - Test Cases/ECR/TestCases/ECR__Approve_DataDriven: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) Variable 'EXP' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 16:22:52 - [TEST_SUITE][ERROR] - ECR: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) Variable 'EXP' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-06-26 16:22:52 - [TEST_SUITE][ERROR] - ECR: Test Cases/ECR/TestCases/ECR__Approve_DataDriven FAILED because (of) Variable 'EXP' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

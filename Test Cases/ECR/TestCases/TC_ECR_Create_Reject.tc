@@ -4,103 +4,110 @@
    <name>TC_ECR_Create_Reject</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2a15e256-961e-40cf-b1ee-15fb0297e08a</testCaseGuid>
+   <testCaseGuid>e76e0d09-4bc1-446c-8517-b7bcbf16183a</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ellia@pegasystems.com'</defaultValue>
       <description></description>
-      <id>40e97db8-2cd0-43f8-95b9-591cfda4f51b</id>
+      <id>9adfdcfc-9870-4603-a379-6d40c6b02a2f</id>
       <masked>false</masked>
       <name>RD</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'panee@pegasystems.com'</defaultValue>
       <description></description>
-      <id>1c23377e-7b2f-4f61-89df-264c19faaa08</id>
-      <masked>false</masked>
-      <name>RDlogin</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d92676fb-cc77-4a90-b7c2-a9d52935e2c9</id>
+      <id>a67a4a34-6862-4ad9-b3bf-949135fd8b77</id>
       <masked>false</masked>
       <name>RL</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'hendj@pegasystems.com'</defaultValue>
       <description></description>
-      <id>f61da936-8a8d-4476-a462-ba16952e3888</id>
-      <masked>false</masked>
-      <name>RLlogin</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>88f74331-3b36-415b-a7dd-855ecfba3816</id>
+      <id>f7321e39-81b1-476f-978a-36648135d4d8</id>
       <masked>false</masked>
       <name>PL</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'BOFA'</defaultValue>
       <description></description>
-      <id>ce41af42-dfaf-41a8-b39e-316b2d62b8bf</id>
-      <masked>false</masked>
-      <name>PLlogin</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>6381f797-df86-4675-baa8-1a2b3176482c</id>
+      <id>92d5a169-dbcc-4307-8d60-59e3577f7565</id>
       <masked>false</masked>
       <name>ORG</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'BOFA'</defaultValue>
       <description></description>
-      <id>98381512-42a7-4a13-b57f-0d7c68aed3c2</id>
+      <id>5b5118cd-9af0-4426-a019-270e3bc144aa</id>
       <masked>false</masked>
       <name>ACC</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>16379680-9c26-4fa2-bec3-392b93fb0913</id>
+      <id>2dcc49c8-460f-4c3e-9e2d-33e38f53689b</id>
       <masked>false</masked>
       <name>ENG</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'hingr@pegasystems.com'</defaultValue>
       <description></description>
-      <id>07103eed-c4d6-4095-b6d0-ed7e4e5a15ff</id>
+      <id>c085e1b5-fcfc-4164-8f0e-18599ae1b12f</id>
       <masked>false</masked>
       <name>PLTL</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'\\Data Files\\ECR\\TestDataECR.xlsx'</defaultValue>
       <description></description>
-      <id>8cb76a47-112b-44a7-85c9-c98d5ec24cd9</id>
+      <id>92b4fbbf-6d2c-4b84-a221-eece40dfdc4d</id>
       <masked>false</masked>
       <name>TestDataFile</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>24bc1bc2-c9de-4a7f-a131-e8e1c239ed9c</id>
-      <masked>false</masked>
-      <name>variable_10</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3c8b842c-7e7f-49ae-85c6-9c70b0103511</id>
+      <id>bf23292d-d8ee-417d-8106-a6aa9c516e00</id>
       <masked>false</masked>
       <name>TestCaseno</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'\\Data Files\\ECR\\PCR_1.xlsm'</defaultValue>
       <description></description>
-      <id>0818c55e-1795-4892-b7b5-0ef743ad62fa</id>
+      <id>08905ba5-6f66-49df-b3ef-7a1b656767d2</id>
       <masked>false</masked>
       <name>FileLocation</name>
+   </variable>
+   <variable>
+      <defaultValue>'lachd@pegasystems.com'</defaultValue>
+      <description></description>
+      <id>b0e7a735-6a08-4215-99fe-4c33a5a0960c</id>
+      <masked>false</masked>
+      <name>RDD</name>
+   </variable>
+   <variable>
+      <defaultValue>'diazz@pegasystems.com'</defaultValue>
+      <description></description>
+      <id>ea2a09fd-128c-437c-850d-6056dcf85a6a</id>
+      <masked>false</masked>
+      <name>CLINIC</name>
+   </variable>
+   <variable>
+      <defaultValue>'pogoa@pegasystems.com'</defaultValue>
+      <description></description>
+      <id>a2fcd95d-cce7-4160-bbf7-be620733db44</id>
+      <masked>false</masked>
+      <name>OPS</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.EXP_SVC</defaultValue>
+      <description></description>
+      <id>5989576a-c1e6-4043-aa63-f04c3d7aa8c1</id>
+      <masked>false</masked>
+      <name>EXP</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>1abca366-9ce0-4037-bd4d-6c8a67ccf6b8</id>
+      <masked>false</masked>
+      <name>DataDrive</name>
    </variable>
 </TestCaseEntity>

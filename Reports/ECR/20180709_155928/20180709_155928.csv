@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ECR,Chrome 67.0.3396.87,,2018-07-09 15:59:32,2018-07-09 17:50:50,1h - 51m - 18.022s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 15:59:33,2018-07-09 16:26:24,26m - 50.425s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 15:59:35,2018-07-09 16:00:23,47.385s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 16:00:23,2018-07-09 16:05:32,5m - 9.380s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 67.0.3396.87,,2018-07-09 16:05:32,2018-07-09 16:06:12,40.289s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 16:06:12,2018-07-09 16:26:24,20m - 11.325s,PASSED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 16:26:24,2018-07-09 17:03:39,37m - 15.620s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 16:26:24,2018-07-09 16:27:13,48.671s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 16:27:13,2018-07-09 16:36:19,9m - 6.062s,PASSED
+com.helper.commonfunct.commonutilities.searchStatus,Chrome 67.0.3396.87,,2018-07-09 16:36:19,2018-07-09 16:36:59,40.237s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 16:36:59,2018-07-09 17:03:39,26m - 40.537s,PASSED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:03:39,2018-07-09 17:11:47,8m - 8.037s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:03:40,2018-07-09 17:04:28,48.778s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:04:28,2018-07-09 17:11:47,7m - 19.155s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:11:47,2018-07-09 17:19:55,8m - 7.740s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:11:48,2018-07-09 17:12:37,48.930s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:12:37,2018-07-09 17:19:55,7m - 18.701s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:19:55,2018-07-09 17:28:03,8m - 7.683s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:19:55,2018-07-09 17:20:44,48.731s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:20:44,2018-07-09 17:28:03,7m - 18.873s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:28:03,2018-07-09 17:36:11,8m - 7.779s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:28:03,2018-07-09 17:28:52,48.969s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:28:52,2018-07-09 17:36:11,7m - 18.691s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:36:11,2018-07-09 17:44:18,8m - 7.653s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:36:11,2018-07-09 17:37:00,48.819s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:37:00,2018-07-09 17:44:18,7m - 18.755s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 17:44:18,2018-07-09 17:45:46,1m - 28.085s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:44:18,2018-07-09 17:45:05,46.854s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:45:05,2018-07-09 17:45:46,41.137s,FAILED
+,,,,,,
+Test Cases/ECR/TestCases/TC_ECR_Create_Reject,Chrome 67.0.3396.87,,2018-07-09 17:45:46,2018-07-09 17:50:46,4m - 59.592s,ERROR
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 17:45:48,2018-07-09 17:46:37,49.333s,PASSED
+com.helper.commonfunct.commonutilities.CreateECR,Chrome 67.0.3396.87,,2018-07-09 17:46:37,2018-07-09 17:50:46,4m - 9.141s,ERROR

@@ -9,7 +9,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ECR-02Apr2018-4'</initValue>
+      <initValue>'BEP-16Apr2018-3'</initValue>
       <name>WOID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -64,7 +64,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://vtcpdev.rpega.com:7688/tcpdev/PRServlet'</initValue>
+      <initValue>'https://vtcpfusionqa.rpega.com:9030/tcpfusionqa/PRServlet'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -196,5 +196,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>test</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['INV', 'ECR', 'PRIAGE', 'ESU', 'BEP']</initValue>
+      <name>APP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>app1</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

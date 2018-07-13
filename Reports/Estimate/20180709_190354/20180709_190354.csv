@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Estimate,Chrome 67.0.3396.87,,2018-07-09 19:03:58,2018-07-09 21:42:34,2h - 38m - 35.061s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_EmailOutput_SkipEmail_NOECR,Chrome 67.0.3396.87,,2018-07-09 19:03:59,2018-07-09 19:28:21,24m - 21.194s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 19:04:00,2018-07-09 19:16:08,12m - 8.126s,PASSED
+Statement - SendEmail = false,Chrome 67.0.3396.87,,2018-07-09 19:16:08,2018-07-09 19:16:08,0.002s,PASSED
+Statement - CreateECR = false,Chrome 67.0.3396.87,,2018-07-09 19:16:08,2018-07-09 19:16:08,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 19:16:08,2018-07-09 19:28:21,12m - 12.239s,PASSED
+,,,,,,
+Test Cases/BEP/TestCases/TC_Withdraw,Chrome 67.0.3396.87,,2018-07-09 19:28:21,2018-07-09 19:30:46,2m - 25.914s,FAILED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 19:28:21,2018-07-09 19:28:21,0.001s,NOT_RUN
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 19:28:21,2018-07-09 19:29:09,48.012s,PASSED
+"Statement - WOID = ""BEP-03May2018-18""",Chrome 67.0.3396.87,,2018-07-09 19:29:09,2018-07-09 19:29:09,0.000s,PASSED
+com.helper.commonfunct.commonutilities.search,Chrome 67.0.3396.87,,2018-07-09 19:29:09,2018-07-09 19:29:49,40.341s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.withdraw,Chrome 67.0.3396.87,,2018-07-09 19:29:49,2018-07-09 19:30:46,57.237s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_Create_BEP_EmailOutputMoreThanOneRLS,Chrome 67.0.3396.87,,2018-07-09 19:30:46,2018-07-09 19:55:36,24m - 49.123s,PASSED
+Statement - morethanOneRLS = true,Chrome 67.0.3396.87,,2018-07-09 19:30:47,2018-07-09 19:30:47,0.000s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 19:30:47,2018-07-09 19:43:31,12m - 44.080s,PASSED
+Statement - SendEmail = false,Chrome 67.0.3396.87,,2018-07-09 19:43:31,2018-07-09 19:43:31,0.000s,PASSED
+Statement - CreateECR = true,Chrome 67.0.3396.87,,2018-07-09 19:43:31,2018-07-09 19:43:31,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 19:43:31,2018-07-09 19:55:36,12m - 4.771s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 19:55:36,2018-07-09 20:06:58,11m - 22.603s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 19:55:36,2018-07-09 19:56:25,48.791s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 19:56:25,2018-07-09 20:06:58,10m - 33.201s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 20:06:58,2018-07-09 20:06:58,0.001s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 20:06:58,2018-07-09 20:18:34,11m - 35.610s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 20:06:58,2018-07-09 20:07:46,48.170s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 20:07:46,2018-07-09 20:18:34,10m - 47.367s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 20:18:34,2018-07-09 20:18:34,0.000s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 20:18:34,2018-07-09 20:29:45,11m - 11.392s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 20:18:34,2018-07-09 20:19:22,48.442s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 20:19:22,2018-07-09 20:29:45,10m - 22.910s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 20:29:45,2018-07-09 20:29:45,0.000s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 20:29:45,2018-07-09 20:34:06,4m - 20.544s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 20:29:45,2018-07-09 20:30:33,48.257s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 20:30:33,2018-07-09 20:34:06,3m - 32.250s,FAILED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 20:34:06,2018-07-09 20:45:24,11m - 17.816s,PASSED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 20:34:06,2018-07-09 20:34:54,48.662s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 20:34:54,2018-07-09 20:45:24,10m - 29.097s,PASSED
+"Statement - While (WOSTATUS.contains(""PENDING"") && AssignmentList.size() > 0)",Chrome 67.0.3396.87,,2018-07-09 20:45:24,2018-07-09 20:45:24,0.021s,PASSED
+,,,,,,
+Test Cases/BEP/Create_Approve_Reject/CreateBEP_Approve_DataDriven,Chrome 67.0.3396.87,,2018-07-09 20:45:24,2018-07-09 20:46:52,1m - 28.378s,FAILED
+com.helper.commonfunct.commonutilities.login,Chrome 67.0.3396.87,,2018-07-09 20:45:24,2018-07-09 20:46:11,47.258s,PASSED
+com.helper.commonfunct.BEP_CommonMethod.Estimate,Chrome 67.0.3396.87,,2018-07-09 20:46:11,2018-07-09 20:46:52,41.073s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_All_Recall,Chrome 67.0.3396.87,,2018-07-09 20:46:52,2018-07-09 21:01:45,14m - 52.946s,FAILED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 20:46:52,2018-07-09 20:59:15,12m - 22.362s,PASSED
+com.helper.commonfunct.commonutilities.setprop,Chrome 67.0.3396.87,,2018-07-09 20:59:15,2018-07-09 20:59:15,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 20:59:15,2018-07-09 21:01:45,2m - 30.323s,FAILED
+,,,,,,
+Test Cases/BEP/TestCases/TC_CreateBEP_All_Reject,Chrome 67.0.3396.87,,2018-07-09 21:01:45,2018-07-09 21:42:29,40m - 44.388s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 21:01:45,2018-07-09 21:14:05,12m - 19.158s,PASSED
+com.helper.commonfunct.commonutilities.setprop,Chrome 67.0.3396.87,,2018-07-09 21:14:05,2018-07-09 21:14:05,0.003s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-07-09 21:14:05,2018-07-09 21:42:29,28m - 24.751s,PASSED

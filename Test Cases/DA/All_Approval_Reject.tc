@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>All_Approval_Reject</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c59256c6-652a-4a65-b19d-d7fb4a09e998</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.RD</defaultValue>
+      <description></description>
+      <id>54700bd5-0f6b-48de-a9bc-c7b2fa22e230</id>
+      <masked>false</masked>
+      <name>RD</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PL</defaultValue>
+      <description></description>
+      <id>01911530-34eb-4cd1-9920-a20a1f068b23</id>
+      <masked>false</masked>
+      <name>PL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.RL</defaultValue>
+      <description></description>
+      <id>a18dc44d-7bc9-44cc-b4e3-b863b254c1e5</id>
+      <masked>false</masked>
+      <name>RL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.OPS</defaultValue>
+      <description></description>
+      <id>604a3f54-6d9b-4488-83ab-8fb774b657cc</id>
+      <masked>false</masked>
+      <name>OPS</name>
+   </variable>
+   <variable>
+      <defaultValue>'BEP'</defaultValue>
+      <description></description>
+      <id>ce39f728-daae-4ba9-91f2-0c880f2833e1</id>
+      <masked>false</masked>
+      <name>APP</name>
+   </variable>
+</TestCaseEntity>

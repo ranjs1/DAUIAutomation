@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@name='EngagementInfoSection_pyWorkPage_344']</value>
+         <value>.//*[@id='RULE_KEY']/div[1]/div/div/div/div/div/div/div/div[2]/div/span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@name='EngagementInfoSection_pyWorkPage_344']</value>
+      <value>.//*[@id='RULE_KEY']/div[1]/div/div/div/div/div/div/div/div[2]/div/span/button</value>
    </webElementProperties>
 </WebElementEntity>

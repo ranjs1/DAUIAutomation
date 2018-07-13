@@ -28,7 +28,7 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class priageCommonActions {
-	
+
 	@Keyword
 	def enterPriageEngagamentDetails(String org, String acc, String eng){
 		WebUI.setText(findTestObject('PriageObjectRepository/Org_Name'), org)
@@ -54,126 +54,125 @@ public class priageCommonActions {
 		WebUI.click(findTestObject('PriageObjectRepository/Submit_Button'))
 		WebUI.delay(2)
 	}
-	
+
 	@Keyword
 	def completePriageQuestionnaire() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
 		WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/nextButton'))
 		WebUI.delay(2)
-		
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question1'), Keys.chord(Keys.ARROW_DOWN,
-		Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question2'), Keys.chord(Keys.ARROW_DOWN,
-		Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question3'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question4'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question5'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup1-Question6'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question1'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question2'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question3'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question4'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question5'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question6'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup2-Question7'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup3-Question1'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup3-Question2'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup3-Question3'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup4-Question1'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup4-Question2'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup5-Question1'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup5-Question2'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup5-Question3'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup6-Question1'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup6-Question2'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup6-Question3'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup6-Question4'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
+
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/PriageQuestions/CategoryGroup6-Question5'), Keys.chord(Keys.ARROW_DOWN,
-			Keys.ARROW_DOWN, Keys.ENTER))
-		
+				Keys.ARROW_DOWN, Keys.ENTER))
+
 		WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/nextButton'))
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/Finishbutton'))
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
 	def priageDecisionProcess() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
@@ -181,12 +180,12 @@ public class priageCommonActions {
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/priageCandidate'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/reasonForPriage'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
-		
+
 		WebUI.setText(findTestObject('PriageObjectRepository/priageAssesementComments'), 'test Priage')
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/nextButton'))
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/Finishbutton'))
-	} 
-	
+	}
+
 	@Keyword
 	def scheduleKickOff() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
@@ -201,7 +200,7 @@ public class priageCommonActions {
 		//WebUI.sendKeys(findTestObject('PriageObjectRepository/reasonForPriage'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
 		WebUI.delay(2)
 	}
-	
+
 	@Keyword
 	def conDuctKickOffMeeting() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
@@ -211,13 +210,13 @@ public class priageCommonActions {
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/riskSummaryTrendingGreen'))
 		WebUI.delay(2)
 		WebUI.setText(findTestObject('Object Repository/PriageObjectRepository/gurdrailScore'), '2')
-		
+
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/expandAll'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/governanceRisk'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/soulutionRisk'))
-		WebUI.delay(2)		
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/deliveryRisk'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/performanceRisk'))
@@ -234,9 +233,8 @@ public class priageCommonActions {
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/Submit_Button'))
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
 	def schedulePriageMeeting() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
@@ -244,14 +242,13 @@ public class priageCommonActions {
 		WebUI.click(findTestObject('Object Repository/PriageObjectRepository/Submit_Button'))
 		WebUI.delay(2)
 	}
-	
+
 	@Keyword
 	def withdrawPriage() {
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/OtherActions'))
 		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/OtherAction-PriageWithdraw'))
 	}
-	
 }
 
 

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-06-26T16:55:08</date>
+  <millis>1530046508061</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/ECR</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ECR</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/ECR</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:08</date>
+  <millis>1530046508162</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;nipin - L22622WUS.rpega.com&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">nipin - L22622WUS.rpega.com</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:08</date>
+  <millis>1530046508165</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:08</date>
+  <millis>1530046508167</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.2.176.65&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.2.176.65</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:08</date>
+  <millis>1530046508172</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509183</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ECR/TestCases/ECR__Approve_DataDriven</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/ECR/TestCases/ECR__Approve_DataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/ECR/TestCases/ECR__Approve_DataDriven</property>
+  <property name="source">C:\\DAUIAutomation\\Test Cases\\ECR\\TestCases\\ECR__Approve_DataDriven.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509316</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509319</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;RD&amp;apos; is set to martw@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509333</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;RL&amp;apos; is set to panee@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509334</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;PL&amp;apos; is set to hendj@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509337</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;ORG&amp;apos; is set to BOFA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509353</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;ACC&amp;apos; is set to BOFA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509539</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;ENG&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509540</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;PLTL&amp;apos; is set to marsa@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509558</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;TestDataFile&amp;apos; is set to \\Data Files\\ECR\\TestDataECR.xlsx as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509559</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;TestCaseno&amp;apos; is set to 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509560</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;FileLocation&amp;apos; is set to \\Data Files\\ECR\\PCR_1.xlsm</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509561</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;RDD&amp;apos; is set to lachd@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509562</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;CLINIC&amp;apos; is set to diazz@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509563</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;OPS&amp;apos; is set to pogoa@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509564</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;WOID&amp;apos; is set to ECR-09Apr2018-19</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:09</date>
+  <millis>1530046509565</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;EXP&amp;apos; is set to sachb@pegasystems.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:10</date>
+  <millis>1530046510864</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.helper.commonfunct.commonutilities.login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-06-26T16:55:12</date>
+  <millis>1530046512092</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:12</date>
+  <millis>1530046512107</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:12</date>
+  <millis>1530046512207</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 3 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-06-26T16:55:21</date>
+  <millis>1530046521288</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;4bceffa47df04b51602ea511de5cb139&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">4bceffa47df04b51602ea511de5cb139</property>
+</record>

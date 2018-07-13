@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ECR" time="1632" tests="0" failures="1" errors="0">
+   <testsuite name="ECR" tests="0" failures="1" errors="0" time="1632" timestamp="2018-07-03 11:47:12" hostname="nipin - L22622WUS.rpega.com" id="Test Suites/ECR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709"/>
+         <property name="logFiles" value="C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\execution0.log"/>
+         <property name="attachments" value="C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530633553808.png, C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530633779128.png, C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634003850.png, C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634198313.png, C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634421304.png, C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634456959.png"/>
+         <property name="hostName" value="nipin - L22622WUS.rpega.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.2.176.65"/>
+         <property name="sessionId" value="11fac6a37b8f549887d0813adc46c28a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven" classname="Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven" status="FAILED">
+         <failure type="FAILED" message="Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)"/>
+         <system-out><![CDATA[2018-07-03 11:47:13 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven FAILED because (of) Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)
+
+2018-07-03 11:47:14 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 11:47:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 11:47:29 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 11:47:42 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 11:47:54 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 11:48:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 11:48:02 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 11:48:02 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.CreateECR: com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-03 11:48:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 11:48:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/New' is clicked on
+
+2018-07-03 11:48:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-03 11:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/span_Bid Process' is clicked on
+
+2018-07-03 11:48:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-03 11:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/WOTAB' is clicked on
+
+2018-07-03 11:48:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:48:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-03 11:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Generic/BID_TYPE' is clicked on
+
+2018-07-03 11:48:57 - [MESSAGE][PASSED] - Object 'Object Repository/Generic/button_Import' is present
+
+2018-07-03 11:49:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Import' is clicked on
+
+2018-07-03 11:49:14 - [MESSAGE][PASSED] - File 'C:\DAUIAutomation\Data Files\ECR\PCR_2.xlsm' sent to object: 'Object Repository/Generic/FilePath'
+
+2018-07-03 11:49:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:49:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/button_Submit' successfully
+
+2018-07-03 11:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/button_Submit' is clicked on
+
+2018-07-03 11:49:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:49:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:49:51 - [MESSAGE][PASSED] - Text 'FFTHRDBANK' is set on object 'Object Repository/Generic/ORG'
+
+2018-07-03 11:49:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:50:02 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ORG'
+
+2018-07-03 11:50:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:50:19 - [MESSAGE][PASSED] - Text 'CHFTB' is set on object 'Object Repository/Generic/ACC'
+
+2018-07-03 11:50:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:50:30 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Generic/ACC'
+
+2018-07-03 11:50:37 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 11:50:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:50:47 - [MESSAGE][WARNING] - Text 'The engagement you entered doesn't match' is not present on page 
+
+2018-07-03 11:50:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:51:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:51:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LedBy' is: 'Pega Led'
+
+2018-07-03 11:51:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:51:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/ProjectType' is: 'Full Implementation'
+
+2018-07-03 11:51:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:51:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/ECR/Generic/LicenceNew' is: 'No'
+
+2018-07-03 11:51:35 - [MESSAGE][PASSED] - Text 'CO-12' is set on object 'Object Repository/EngInfo/COID'
+
+2018-07-03 11:51:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:51:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:51:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:52:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:52:07 - [MESSAGE][PASSED] - Keys 'Cambridge' sent to object: 'Object Repository/ECR/Generic/Location'
+
+2018-07-03 11:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:52:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:52:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Generic/WOID' is: 'ECR-03Jul2018-7'
+
+2018-07-03 11:52:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:52:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-03 11:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-03 11:52:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/ECR/Meeting/ClinicMeeting' is present
+
+2018-07-03 11:53:01 - [MESSAGE][PASSED] - Text '07/05/2018' is set on object 'Object Repository/EngInfo/MeetingDate'
+
+2018-07-03 11:53:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:53:18 - [MESSAGE][PASSED] - Text 'Software Testing' is set on object 'Object Repository/EngInfo/instruction'
+
+2018-07-03 11:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:53:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/EngInfo/AE'
+
+2018-07-03 11:53:48 - [MESSAGE][PASSED] - Text 'Nagaveni Nipinale' is set on object 'Object Repository/EngInfo/AE'
+
+2018-07-03 11:53:54 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/EngInfo/AE'
+
+2018-07-03 11:53:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ECR/Meeting/SelectHighlighted' is clicked on
+
+2018-07-03 11:54:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMarketingYes' is clicked on
+
+2018-07-03 11:54:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/IsPegaMobileYes' is clicked on
+
+2018-07-03 11:54:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:54:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:54:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-03 11:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-03 11:54:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:54:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/NEXT_BUTTON' successfully
+
+2018-07-03 11:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/NEXT_BUTTON' is clicked on
+
+2018-07-03 11:55:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:55:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/FINISH_BUTTON' successfully
+
+2018-07-03 11:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/FINISH_BUTTON' is clicked on
+
+2018-07-03 11:55:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EngInfo/Continue' is clicked on
+
+2018-07-03 11:55:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:55:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:55:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 11:56:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:56:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:56:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:56:23 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/ECR/Meeting/BSW_TEXT'
+
+2018-07-03 11:56:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:56:51 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-03 11:56:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:57:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-03 11:57:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:57:13 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.CreateECR is PASSED
+
+2018-07-03 11:57:13 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 11:57:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:57:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 11:57:48 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 11:57:48 - [TEST_STEP][FAILED] - Statement - While (WOSTATUS.contains("PENDING") && AssignmentList.size() > 0): Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)
+
+2018-07-03 11:57:48 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-03 11:57:51 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-03 11:57:51 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 11:57:51 - [TEST_STEP][PASSED] - Statement - If (RDReject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 11:57:51 - [TEST_STEP][PASSED] - Statement - If (Meeting == true): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 11:57:51 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 11:57:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-03 11:58:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 11:58:07 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 11:58:19 - [MESSAGE][PASSED] - Text 'martw@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 11:58:32 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 11:58:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 11:58:39 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 11:58:39 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 11:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 11:58:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:59:01 - [MESSAGE][PASSED] - Text 'ECR-03Jul2018-7' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-03 11:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 11:59:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-03 11:59:17 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530633553808.png]]
+
+2018-07-03 11:59:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:59:20 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 11:59:20 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 11:59:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:59:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 11:59:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 11:59:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 11:59:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:00:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:00:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:00:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-03 12:00:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:00:38 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-03 12:00:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:00:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-03 12:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-03 12:00:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:00:58 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 12:00:58 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:01:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:01:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:01:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:01:32 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:01:32 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-03 12:01:35 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-03 12:01:35 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 12:01:35 - [TEST_STEP][PASSED] - Statement - If (RDD_Reject == false): com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 12:01:35 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:01:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-03 12:01:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:01:52 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 12:02:04 - [MESSAGE][PASSED] - Text 'lachd@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 12:02:16 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:02:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:02:24 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:02:24 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:02:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:02:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:02:46 - [MESSAGE][PASSED] - Text 'ECR-03Jul2018-7' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-03 12:02:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:02:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-03 12:03:02 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530633779128.png]]
+
+2018-07-03 12:03:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:03:05 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:03:05 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.approve: com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 12:03:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:03:26 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 12:03:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:03:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:03:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:03:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:04:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:04:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-03 12:04:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:04:24 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-03 12:04:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:04:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-03 12:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Generic/SUBMIT' is clicked on
+
+2018-07-03 12:04:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:04:44 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.approve is PASSED
+
+2018-07-03 12:04:44 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:04:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:05:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:05:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:05:18 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:05:18 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-03 12:05:21 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-03 12:05:21 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-03 12:05:21 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:05:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-03 12:05:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:05:37 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 12:05:50 - [MESSAGE][PASSED] - Text 'diazz@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 12:06:02 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:06:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:06:09 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:06:09 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:06:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:06:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:06:31 - [MESSAGE][PASSED] - Text 'ECR-03Jul2018-7' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-03 12:06:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:06:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-03 12:06:47 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634003850.png]]
+
+2018-07-03 12:06:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:06:50 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:06:50 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting: com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-03 12:07:06 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 12:07:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:07:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:07:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:07:41 - [MESSAGE][PASSED] - Text 'Cambridge' is set on object 'Object Repository/ECR/Meeting/location'
+
+2018-07-03 12:07:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:07:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Generic/SUBMIT' successfully
+
+2018-07-03 12:07:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:07:58 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.scheduleMeeting is PASSED
+
+2018-07-03 12:07:58 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:08:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:08:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:08:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:08:33 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:08:33 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-03 12:08:36 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-03 12:08:36 - [TEST_STEP][PASSED] - Statement - If (Status == "Pending-RDApproval"): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-03 12:08:36 - [TEST_STEP][PASSED] - Statement - If (OpsReject == false): com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-03 12:08:36 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:08:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-03 12:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:08:52 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 12:09:04 - [MESSAGE][PASSED] - Text 'pogoa@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 12:09:16 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:09:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:09:24 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:09:24 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:09:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:09:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:09:45 - [MESSAGE][PASSED] - Text 'ECR-03Jul2018-7' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-03 12:09:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:09:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-03 12:10:01 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634198313.png]]
+
+2018-07-03 12:10:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:10:04 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:10:04 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove: com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-03 12:10:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:10:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:10:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:10:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:10:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:10:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:11:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Approve-Reject/APPROVE_BUTTON' successfully
+
+2018-07-03 12:11:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:11:25 - [MESSAGE][PASSED] - Keys 'Software Testing' sent to object: 'Object Repository/Approve-Reject/APPROVE_REJECT_NOTES'
+
+2018-07-03 12:11:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:11:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:11:39 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.gsopsApprove is PASSED
+
+2018-07-03 12:11:39 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.searchStatus: com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:11:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:12:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:12:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-03 12:12:14 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.searchStatus is PASSED
+
+2018-07-03 12:12:14 - [TEST_STEP][PASSED] - Statement - Status = text: null
+
+2018-07-03 12:12:17 - [TEST_STEP][PASSED] - Statement - println(Status): null
+
+2018-07-03 12:12:17 - [TEST_STEP][FAILED] - Statement - If (Status == "Pending-RDApproval"): Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)
+
+2018-07-03 12:12:17 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.login: com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:12:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-03 12:12:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 12:12:34 - [MESSAGE][PASSED] - Navigate to 'https://vdaqa.rpega.com:9030/daqa/PRServlet' successfully
+
+2018-07-03 12:12:46 - [MESSAGE][PASSED] - Text 'martw@pegasystems.com' is set on object 'Object Repository/Generic/input_UserIdentifier'
+
+2018-07-03 12:12:58 - [MESSAGE][PASSED] - Text 'install' is set on object 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:13:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Generic/input_Password'
+
+2018-07-03 12:13:06 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.login is PASSED
+
+2018-07-03 12:13:06 - [TEST_STEP][PASSED] - com.helper.commonfunct.commonutilities.search: com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:13:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-03 12:13:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-03 12:13:28 - [MESSAGE][PASSED] - Text 'ECR-03Jul2018-7' is set on object 'Object Repository/EngInfo/search'
+
+2018-07-03 12:13:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-03 12:13:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EngInfo/search'
+
+2018-07-03 12:13:44 - [MESSAGE][WARNING] - No alert found after 3 second(s).
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634421304.png]]
+
+2018-07-03 12:13:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:13:47 - [MESSAGE][PASSED] - com.helper.commonfunct.commonutilities.search is PASSED
+
+2018-07-03 12:13:47 - [TEST_STEP][FAILED] - com.helper.commonfunct.commonutilities.pendingClinic: Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)
+
+2018-07-03 12:14:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-03 12:14:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-03 12:14:20 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)
+[[ATTACHMENT|C:\\DAUIAutomation\\Reports\\ECR\\20180703_114709\\1530634456959.png]]
+
+2018-07-03 12:14:20 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)]]></system-out>
+         <system-err><![CDATA[2018-07-03 11:47:13 - [TEST_CASE][FAILED] - Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven: Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven FAILED because (of) Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 11:47:12 - [TEST_SUITE][FAILED] - ECR: Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven FAILED because (of) Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-03 11:47:12 - [TEST_SUITE][FAILED] - ECR: Test Cases/ECR/TestCases/ECR_Create_Approve_DataDriven FAILED because (of) Unable to verify image 'Object Repository/Generic/FRAME1' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Generic/FRAME1' located by 'By.xpath: //*[@id = 'PegaGadget1Ifr']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
