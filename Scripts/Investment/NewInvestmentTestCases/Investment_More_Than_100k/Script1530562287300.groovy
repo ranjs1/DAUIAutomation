@@ -65,7 +65,5 @@ CustomKeywords.'da.investment.investmentCommonAction.svpApproval'(woid)
 'Investment Work Object and Details.\r\nVerification to see if it is properly linked to Projector'
 CustomKeywords.'da.investment.investmentCommonAction.verifyProjectInfoOnInv'(woid)
 
-return woid
-
 WebUI.closeBrowser()
 

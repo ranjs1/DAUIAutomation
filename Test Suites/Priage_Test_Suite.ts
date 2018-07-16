@@ -4,7 +4,7 @@
    <name>Priage_Test_Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T12:35:45</lastRun>
+   <lastRun>2018-07-16T11:26:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

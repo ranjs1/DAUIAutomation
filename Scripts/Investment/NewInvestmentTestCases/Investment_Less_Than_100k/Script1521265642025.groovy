@@ -23,14 +23,9 @@ WebUI.openBrowser(findTestData('URL').getValue(1, 1))
 
 WebUI.maximizeWindow()
 
-<<<<<<< HEAD
 'Login as Practice Leader'
 CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
         'Role-UserName-Password').getValue(3, 2))
-=======
-CustomKeywords.'com.helper.commonfunct.commonutilities.login'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
-        'Role-UserName-Password').getValue(3, 2), '')
->>>>>>> nipin_updatingglobalvariable
 
 WebUI.delay(2)
 
@@ -38,7 +33,7 @@ String engagementName = CustomKeywords.'da.common.methods.CommonActionsInDA.rand
 
 WebUI.comment(engagementName)
 
-String filePath = 'C:\\Users\\ranjs1\\git\\DAUIAutomation\\Data Files\\BSW\\Investment\\INV-BSW_BSW PRJ v9_LessThan100K.xlsm'
+String filePath = 'C:\\Users\\ranjs1\\git\\DAUIAutomation\\Data Files\\BSW\\Investment\\INV-BSW_BSW_PRJ v9_LessThan100K.xlsm'
 
 'Go to ----> (+) -- > Investment'
 CustomKeywords.'da.common.methods.CommonActionsInDA.createInvestment'()
@@ -64,10 +59,8 @@ CustomKeywords.'da.investment.investmentCommonAction.rdApproval'(woid)
 'Approve Investment Request as Regional Leader'
 CustomKeywords.'da.investment.investmentCommonAction.rlApproval'(woid)
 
-'Approve Investment Request as Approve Investment Request as SVP'
+'Investment Work Object and Details.\r\nVerification to see if it is properly linked to Projector'
 CustomKeywords.'da.investment.investmentCommonAction.verifyProjectInfoOnInv'(woid)
-
-return woid
 
 WebUI.closeBrowser()
 

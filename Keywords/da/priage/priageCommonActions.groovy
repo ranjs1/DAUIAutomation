@@ -44,7 +44,7 @@ public class priageCommonActions {
 		WebUI.setText(findTestObject('PriageObjectRepository/Eng_Name'), eng)
 		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('PriageObjectRepository/Eng_Name'), Keys.chord(Keys.TAB))
-		WebUI.delay(2)
+		WebUI.delay(5)
 		/*
 		 //WebUI.sendKeys(findTestObject('PriageObjectRepository/Engagement_Leader'), Keys.chord(Keys.ARROW_DOWN,
 		 //	Keys.ARROW_DOWN, Keys.ENTER))
@@ -54,22 +54,22 @@ public class priageCommonActions {
 		 WebUI.delay(2)
 		 */
 		WebUI.click(findTestObject('PriageObjectRepository/PegaMarketing_RadioButton_NO'))
-		WebUI.delay(2)
+		WebUI.delay(5)
 		WebUI.click(findTestObject('PriageObjectRepository/PegaMobile_RadioButton_NO'))
-		WebUI.delay(2)
+		WebUI.delay(5)
 		WebUI.click(findTestObject('PriageObjectRepository/Submit_Button'))
-		WebUI.delay(2)
+		WebUI.delay(5)
 	}
 
 	@Keyword
 	def completePriageQuestionnaire(String x) {
 		CommonActionsInDA.logOff()
-		
+
 		WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-		
+
 		CommonActionsInDA.loginDA(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
 				'Role-UserName-Password').getValue(3, 2))
-		
+
 		CommonActionsInDA.searchWO(x)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
 		WebUI.delay(2)
@@ -190,12 +190,12 @@ public class priageCommonActions {
 	@Keyword
 	def priageDecisionProcess(String x) {
 		CommonActionsInDA.logOff()
-		
+
 		WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-		
+
 		CommonActionsInDA.loginDA(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
 				'Role-UserName-Password').getValue(3, 3))
-		
+
 		CommonActionsInDA.searchWO(x)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
 		WebUI.delay(2)
@@ -211,14 +211,14 @@ public class priageCommonActions {
 	@Keyword
 	def scheduleKickOff(String x) {
 		CommonActionsInDA.logOff()
-		
+
 		WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-		
+
 		CommonActionsInDA.loginDA(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
 				'Role-UserName-Password').getValue(3, 3))
-		
+
 		CommonActionsInDA.searchWO(x)
-		
+
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
 		WebUI.delay(2)
 		WebUI.setText(findTestObject('Object Repository/PriageObjectRepository/priageMeetingStartDate'), '3/30/2028 2:57 AM')
@@ -235,12 +235,12 @@ public class priageCommonActions {
 	@Keyword
 	def conDuctKickOffMeeting(String x) {
 		CommonActionsInDA.logOff()
-		
+
 		WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
-		
+
 		CommonActionsInDA.loginDA(findTestData('Role-UserName-Password').getValue(2, 3), findTestData(
 				'Role-UserName-Password').getValue(3, 3))
-		
+
 		CommonActionsInDA.searchWO(x)
 		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
 		WebUI.delay(2)
