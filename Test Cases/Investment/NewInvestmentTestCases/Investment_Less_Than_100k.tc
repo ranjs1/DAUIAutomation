@@ -1,26 +1,16 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
    <name>Investment_Less_Than_100k</name>
    <tag></tag>
-   <comment>woid</comment>
-   <testCaseGuid>8c9e9e9a-07fd-4012-b417-3d27cb479765</testCaseGuid>
+   <comment>engagementName
+woid</comment>
+   <testCaseGuid>2de37122-064d-4183-900f-fb717d43aed1</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>86099d08-a15e-4792-b5f6-5681b38c7d72</id>
+      <id>01b9d8c2-1ebb-47da-b21b-1fe9aee28152</id>
       <masked>false</masked>
       <name>investmentWOStatus</name>
    </variable>
 </TestCaseEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Investment_Less_Than_100k</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8c9e9e9a-07fd-4012-b417-3d27cb479765</testCaseGuid>
-</TestCaseEntity>
->>>>>>> nipin_updatingglobalvariable

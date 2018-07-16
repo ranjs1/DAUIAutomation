@@ -1,19 +1,18 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>This test suites runs all the happy and Alternate path for investment</description>
+   <description></description>
    <name>Investment_Test_Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-10T13:48:57</lastRun>
+   <lastRun>2018-07-16T11:53:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>bbfce91a-d6a4-4f40-b320-b86fb3002af4</testSuiteGuid>
+   <testSuiteGuid>e49a0d3d-77fd-43df-ad80-f5798d9d8c61</testSuiteGuid>
    <testCaseLink>
-      <guid>714bc3e0-da47-4f65-be9c-20d161ff1d33</guid>
+      <guid>fe2238da-1638-46e2-a4b5-724fdd7afaf3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Investment/NewInvestmentTestCases/Investment_More_Than_100k</testCaseId>
@@ -25,7 +24,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e1bf048-89e7-4656-967e-3fc1e2ca6edb</guid>
+      <guid>4298761b-e9b8-4c52-831c-e7fa08567994</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k</testCaseId>
@@ -33,35 +32,13 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>86099d08-a15e-4792-b5f6-5681b38c7d72</variableId>
+         <variableId>01b9d8c2-1ebb-47da-b21b-1fe9aee28152</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdfd8b61-7d2a-49c4-af6d-0b3334105edd</guid>
+      <guid>24bebf52-445a-4b12-9ffe-e78d7a39755f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Investment/DateOnlyExtendsTestCases/Allow Date Only Extension</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteEntity>
-   <description></description>
-   <name>Investment_Test_Suite</name>
-   <tag></tag>
-   <isRerun>false</isRerun>
-   <lastRun>2018-03-23T15:27:31</lastRun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>bbfce91a-d6a4-4f40-b320-b86fb3002af4</testSuiteGuid>
-   <testCaseLink>
-      <guid>39f1170e-8a2e-4ca2-962b-b3a2391a8eb4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Investment/NewInvestmentTestCases/Investment_Less_Than_100k</testCaseId>
-   </testCaseLink>
-</TestSuiteEntity>
->>>>>>> nipin_updatingglobalvariable
