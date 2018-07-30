@@ -275,7 +275,7 @@ public class commonutilities {
 			WebUI.click(findTestObject('Generic/FINISH_BUTTON'))
 			WebUI.waitForPageLoad(30)
 			WebUI.delay(5)
-			WebUI.click(findTestObject('ECR/Meeting/Sizing/attachmentReferenceSize'))		
+			WebUI.click(findTestObject('ECR/Meeting/Sizing/attachmentReferenceSize'))
 			WebUI.uploadFile(findTestObject('ECR/Meeting/Sizing/filepath'), Filelocation)
 			WebUI.delay(5)
 			WebUI.scrollToElement(findTestObject('Generic/button_Submit'), 5)
@@ -284,7 +284,6 @@ public class commonutilities {
 			WebUI.setText(findTestObject('ECR/Meeting/Sizing/OverallComments'), GlobalVariable.LongNotes)
 			WebUI.click(findTestObject('Generic/FINISH_BUTTON'))
 			WebUI.waitForPageLoad(30)
-						
 		}
 	}
 

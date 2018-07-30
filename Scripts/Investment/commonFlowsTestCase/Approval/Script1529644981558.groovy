@@ -32,10 +32,10 @@ while (status != 'Resolved-Approved') {
 	WebUI.delay(2)
 	WebUI.setText(findTestObject('InvestmentObjectRepository/ApprovalComments'), 'Gsops Comments')
 	
-	WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/category'), findTestData('NewEngagements').getValue(15, 1))
+	WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/category'), findTestData('Test-Data-For-Inv-Value-More-Than-100K').getValue(15, 1))
 	WebUI.delay(6)
 	
-	WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/Code'), findTestData('NewEngagements').getValue(16, 1))
+	WebUI.sendKeys(findTestObject('Object Repository/InvestmentObjectRepository/Code'), findTestData('Test-Data-For-Inv-Value-More-Than-100K').getValue(16, 1))
 	WebUI.delay(2)
 	
 	WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/Approve Button'))

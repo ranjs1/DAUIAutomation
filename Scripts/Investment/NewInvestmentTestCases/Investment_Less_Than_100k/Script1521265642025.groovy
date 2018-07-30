@@ -16,8 +16,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.sun.xml.internal.org.jvnet.mimepull.DataFile
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testdata.InternalData
+
+
+int rowNo = 1
+
+InternalData data = findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K')
+
+for (def index : (0..data.getRowNumbers() - 1)) {
 
 WebUI.openBrowser(findTestData('URL').getValue(1, 1))
 
@@ -39,28 +48,47 @@ String filePath = 'C:\\Users\\ranjs1\\git\\DAUIAutomation\\Data Files\\BSW\\Inve
 CustomKeywords.'da.common.methods.CommonActionsInDA.createInvestment'()
 
 'Select \'Create New Investment Option\' and Proceed by creating the investment with the values as mentioned in the BSW file and the test Data \'New Engagement\''
-CustomKeywords.'da.investment.investmentCommonAction.createNewInvestment'(findTestData('NewEngagements').getValue(1, 1), 
-    findTestData('NewEngagements').getValue(2, 1), engagementName, findTestData('NewEngagements').getValue(4, 1), findTestData(
-        'NewEngagements').getValue(5, 1), findTestData('NewEngagements').getValue(6, 1), filePath)
+CustomKeywords.'da.investment.investmentCommonAction.createNewInvestment'(
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(1, rowNo), 
+    findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(2, rowNo),
+	engagementName,
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(4, rowNo), 
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(5, rowNo), 
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(6, rowNo), 
+	filePath,
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(7, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(8, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(9, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(10, rowNo) 
+	)
 
 'Enter Background Verification and Justification'
 CustomKeywords.'da.investment.investmentCommonAction.enterJustificationAndBackGround'()
 
+'Fetching Work Object ID, OPS id, RD id, RL id....'
 String woid = WebUI.getText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WOID'))
+String gsops_email = findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(22, rowNo)
+String rd_email = findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(18, rowNo)
+String rl_email = findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(19, rowNo)
+String pltl_email = findTestData('Investment/Test-Data-For-Inv-Value-Less-Than-100K').getValue(20, rowNo)
 
-WebUI.comment(woid)
+WebUI.comment('Investment Work Object Created is = ' + woid)
 
 'Approve Investment Request as GSOPS'
-CustomKeywords.'da.investment.investmentCommonAction.gsopsApproval'(woid)
+CustomKeywords.'da.investment.investmentCommonAction.gsopsApproval'(woid,gsops_email)
 
 'Approve Investment Request as Regional Director'
-CustomKeywords.'da.investment.investmentCommonAction.rdApproval'(woid)
+CustomKeywords.'da.investment.investmentCommonAction.rdApproval'(woid,rd_email)
 
 'Approve Investment Request as Regional Leader'
-CustomKeywords.'da.investment.investmentCommonAction.rlApproval'(woid)
+CustomKeywords.'da.investment.investmentCommonAction.rlApproval'(woid,rl_email)
 
 'Investment Work Object and Details.\r\nVerification to see if it is properly linked to Projector'
-CustomKeywords.'da.investment.investmentCommonAction.verifyProjectInfoOnInv'(woid)
+CustomKeywords.'da.investment.investmentCommonAction.verifyProjectInfoOnInv'(woid,gsops_email)
+
+rowNo++
 
 WebUI.closeBrowser()
+
+}
 

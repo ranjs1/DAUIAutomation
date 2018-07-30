@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>.//*[@id='RULE_KEY']/div/div/div/div[2]/div/div/div/div[5]/span[count(. | //*[@ref_element = 'Object Repository/Frames/frame1']) = count(//*[@ref_element = 'Object Repository/Frames/frame1'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
