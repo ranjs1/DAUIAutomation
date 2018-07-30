@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SearchStatus</name>
+   <name>luceneSearchResult1</name>
    <tag></tag>
-   <elementGuidId>4bb233b6-30f5-4576-9204-4e7c9e6f909a</elementGuidId>
+   <elementGuidId>69a41f82-b6d7-4548-a033-ef71b0496def</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -13,10 +13,10 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(@data-test-id,'2016083016191602341167946')]</value>
+      <value>.//*[@id='RULE_KEY']/table/tbody/tr/td/nobr/span/a</value>
    </webElementProperties>
 </WebElementEntity>

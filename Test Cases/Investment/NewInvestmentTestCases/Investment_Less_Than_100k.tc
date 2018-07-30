@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This Scenario tests Investment When SVP Approval is Not Needed(When Investment Value is less than 100K Dollars)</description>
    <name>Investment_Less_Than_100k</name>
    <tag></tag>
    <comment>engagementName

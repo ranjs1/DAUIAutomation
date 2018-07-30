@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>extendMessage</name>
+   <name>otherActionDesigenerStudio</name>
    <tag></tag>
-   <elementGuidId>d1fb58b0-8059-4472-ad79-4954e2b343af</elementGuidId>
+   <elementGuidId>34cfa138-7962-4712-9029-953d73349fbe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@data-expr-id,'f6c78e0e6145dfeccf2c2cfdf1920179_27')][count(. | //*[@ref_element = 'Object Repository/Frames/frame1']) = count(//*[@ref_element = 'Object Repository/Frames/frame1'])]</value>
+         <value>.//*[@id='RULE_KEY']/div/div/div/div[6]/span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@data-expr-id,'f6c78e0e6145dfeccf2c2cfdf1920179_27')]</value>
+      <value>.//*[@id='RULE_KEY']/div/div/div/div[6]/span/button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
