@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>status</name>
+   <name>OtherActions-Recall</name>
    <tag></tag>
-   <elementGuidId>aabb83af-5a34-4917-b40f-2364dc7b62d3</elementGuidId>
+   <elementGuidId>6fef7526-c35a-4537-b77a-f9256caf020d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/Frames/frame1']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>datatestid</name>
-      <type>Main</type>
-      <value>.//*[@data-test-id='20150313133904023045379']</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='RULE_KEY']/div/div/div/div[2]/div/div/div/div[5]/span</value>
+      <value>//span[contains(.,'Recall')]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

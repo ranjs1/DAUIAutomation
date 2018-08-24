@@ -30,7 +30,6 @@ import org.openqa.selenium.Keys as Keys
 import java.util.concurrent.ThreadLocalRandom
 
 public class CommonActionsInDA {
-
 	@Keyword
 	def static loginDA(String userName, String passWord) {
 		WebUI.setText(findTestObject('CommonDAObjectRepository/Page_Pega 7/input_UserIdentifier'), userName)
@@ -74,14 +73,12 @@ public class CommonActionsInDA {
 		WebUI.setText(findTestObject('CommonDAObjectRepository/Page_Pega 7/luceneSearch'), wo)
 		WebUI.sendKeys(findTestObject('CommonDAObjectRepository/Page_Pega 7/luceneSearch'), Keys.chord(Keys.ENTER))
 	}
-	
+
 	@Keyword
-		def static randomEngagementNameGenerator() {
+	def static randomEngagementNameGenerator() {
 		Date today = new Date()
 		String todaysDate = today.format('MMddyy-hhmm')
 		String engagementName = 'auto_eng ' + todaysDate
 		return engagementName
 	}
-	
-
 }
