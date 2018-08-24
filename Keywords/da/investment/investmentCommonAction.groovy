@@ -116,6 +116,13 @@ public class investmentCommonAction {
 		WebUI.verifyElementText(findTestObject('Object Repository/InvestmentObjectRepository/extendMessage'), 'Please explain why dates have changed.')
 		WebUI.setText(findTestObject('Object Repository/InvestmentObjectRepository/dateOnlyExtendPlComments'), 'PL COmments for Investment')
 		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/Finish Button'))
+		WebUI.delay(4)
+		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/sortAssignment'))
+		WebUI.delay(4)
+		WebUI.verifyElementText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WO Status'), 'PENDING-RDAPPROVAL')
+		WebUI.verifyElementClickable(findTestObject('CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
+		WebUI.delay(4)
 		WebUI.setText(findTestObject('Object Repository/InvestmentObjectRepository/ApprovalComments'), 'Extension Comments')
 		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/Approve Button'))
 		WebUI.delay(4)
@@ -169,6 +176,23 @@ public class investmentCommonAction {
 		WebUI.delay(2)
 
 		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/Approve Button'))
+		WebUI.delay(4)
+	}
+
+	@Keyword
+	def spApproval(String woid, String sp_email) {
+		CommonActionsInDA.logOff()
+		WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
+		CommonActionsInDA.loginDA(sp_email, findTestData(
+				'Role-UserName-Password').getValue(3, 3))
+		CommonActionsInDA.searchWO(woid)
+
+		WebUI.delay(4)
+		WebUI.verifyElementClickable(findTestObject('CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/CommonDAObjectRepository/Page_Pega 7/beginButtonOnAssignment'))
+		WebUI.delay(2)
+		WebUI.setText(findTestObject('InvestmentObjectRepository/ApprovalComments'), 'SP Comments')
+		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/SubmitButton'))
 		WebUI.delay(4)
 	}
 
@@ -245,5 +269,23 @@ public class investmentCommonAction {
 
 	@Keyword
 	def verifyDateOnlyExtendInv(String woid) {
+	}
+
+	@Keyword
+	def gsopsRecall(String woid, String gsops_email) {
+		//CommonActionsInDA.logOff()
+		//WebUI.navigateToUrl(findTestData('URL').getValue(1, 1))
+		CommonActionsInDA.loginDA(gsops_email, findTestData(
+				'Role-UserName-Password').getValue(3, 3))
+		CommonActionsInDA.searchWO(woid)
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/otherActionsInvestment'))
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/OtherActions-Recall'))
+		WebUI.delay(2)
+		WebUI.setText(findTestObject('Object Repository/InvestmentObjectRepository/recall_Reason'), 'GSOPs Recalls the Investment Request')
+		WebUI.click(findTestObject('Object Repository/InvestmentObjectRepository/recall_Submit'))
+		WebUI.delay(2)
+		WebUI.verifyElementText(findTestObject('CommonDAObjectRepository/Page_Pega 7/WO Status'), 'PENDING-PLUPDATE')
 	}
 }

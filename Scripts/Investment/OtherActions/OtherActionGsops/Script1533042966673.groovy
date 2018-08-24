@@ -34,7 +34,7 @@ WebUI.maximizeWindow()
 
 'Login as Practice Leader'
 CustomKeywords.'da.common.methods.CommonActionsInDA.loginDA'(findTestData('Role-UserName-Password').getValue(2, 2), findTestData(
-        'Role-UserName-Password').getValue(3, 2))
+		'Role-UserName-Password').getValue(3, 2))
 
 WebUI.delay(2)
 
@@ -49,17 +49,17 @@ CustomKeywords.'da.common.methods.CommonActionsInDA.createInvestment'()
 
 'Select \'Create New Investment Option\' and Proceed by creating the investment with the values as mentioned in the BSW file and the test Data \'New Engagement\''
 CustomKeywords.'da.investment.investmentCommonAction.createNewInvestment'(
-	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(1, rowNo), 
-    findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(2, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(1, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(2, rowNo),
 	engagementName,
-	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(4, rowNo), 
-	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(5, rowNo), 
-	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(6, rowNo), 
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(4, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(5, rowNo),
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(6, rowNo),
 	filePath,
 	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(7, rowNo),
 	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(8, rowNo),
 	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(9, rowNo),
-	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(10, rowNo) 
+	findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(10, rowNo)
 	)
 
 'Enter Background Verification and Justification'
@@ -72,27 +72,12 @@ String rd_email = findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100
 String rl_email = findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(19, rowNo)
 String pltl_email = findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(20, rowNo)
 String svp_email = findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(21, rowNo)
-String sp_email = findTestData('Investment/Test-Data-For-Inv-Value-More-Than-100K').getValue(23, rowNo)
 
 WebUI.comment('Investment Work Object Created is = ' + woid)
 
-'Approve Investment Request as spl approver'
-CustomKeywords.'da.investment.investmentCommonAction.spApproval'(woid,sp_email)
-
 'Approve Investment Request as GSOPS'
-CustomKeywords.'da.investment.investmentCommonAction.gsopsApproval'(woid,gsops_email)
+CustomKeywords.'da.investment.investmentCommonAction.gsopsRecall'(woid,gsops_email)
 
-'Approve Investment Request as Regional Director'
-CustomKeywords.'da.investment.investmentCommonAction.rdApproval'(woid,rd_email)
-
-'Approve Investment Request as Regional Leader'
-CustomKeywords.'da.investment.investmentCommonAction.rlApproval'(woid,rl_email)
-
-'Approve Investment Request as Approve Investment Request as SVP'
-CustomKeywords.'da.investment.investmentCommonAction.svpApproval'(woid,svp_email)
-
-'Investment Work Object and Details.\r\nVerification to see if it is properly linked to Projector'
-CustomKeywords.'da.investment.investmentCommonAction.verifyProjectInfoOnInv'(woid,gsops_email)
 
 rowNo++
 

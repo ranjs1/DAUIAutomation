@@ -8,8 +8,8 @@
    <dataFileGUID>2cc95073-d63d-4717-a96d-d462b399c297</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>BOFA BOFA null NA-FS Partner+Led 3-22-INV-2 Adriana+pogoda Andy+Elliott Eric+Panepinto Lara+Yorks NA Pega+Platform%28PRPC%29 5.2+sp1 null Customer+Success Bring+Project+Back+On+Track pogoa%40pegasystems.com yorkl%40pegasystems.com panee%40pegasystems.com null trefl%40pegasystems.com pogoa%40pegasystems.com</data>
-   <data>TOKIOMARINE TMKINS null EU-BEM Partner+Led 3-22-INV-2 Lee+Runciman Lee+Runciman Chris+Stafford Arjan+Kornegoor London Pega+Platform%28PRPC%29 5.2+sp1 null Customer+Success Bring+Project+Back+On+Track runcl%40pegasystems.com korna1%40pegasystems.com stafc%40pegasystems.com null kra_d%40pegasystems.com pogoa%40pegasystems.com</data>
+   <data>BOFA BOFA null NA-FS Partner+Led 3-22-INV-2 Adriana+pogoda Andy+Elliott Eric+Panepinto Lara+Yorks NA Pega+Platform%28PRPC%29 5.2+sp1 null Customer+Success Bring+Project+Back+On+Track pogoa%40pegasystems.com yorkl%40pegasystems.com panee%40pegasystems.com null trefl%40pegasystems.com pogoa%40pegasystems.com sachb%40pegasystems.com</data>
+   <data>TOKIOMARINE TMKINS null EU-BEM Partner+Led 3-22-INV-2 Lee+Runciman Lee+Runciman Chris+Stafford Arjan+Kornegoor London Pega+Platform%28PRPC%29 5.2+sp1 null Customer+Success Bring+Project+Back+On+Track runcl%40pegasystems.com korna1%40pegasystems.com stafc%40pegasystems.com null kra_d%40pegasystems.com pogoa%40pegasystems.com sachb%40pegasystems.com</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>ORG</name>
@@ -118,6 +118,11 @@
    <internalDataColumns>
       <columnIndex>21</columnIndex>
       <name>emails_gsops</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>22</columnIndex>
+      <name>sp_emails</name>
       <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

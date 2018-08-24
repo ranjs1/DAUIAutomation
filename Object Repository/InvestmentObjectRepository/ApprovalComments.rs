@@ -4,13 +4,20 @@
    <name>ApprovalComments</name>
    <tag></tag>
    <elementGuidId>3db7996d-3f5f-4d67-bff0-ab36340764f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'pyNote')][count(. | //*[@ref_element = 'Object Repository/Frames/frame1']) = count(//*[@ref_element = 'Object Repository/Frames/frame1'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@data-test-id='201702220805250406100915']</value>
+      <value>//textarea[contains(@id,'pyNote')]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

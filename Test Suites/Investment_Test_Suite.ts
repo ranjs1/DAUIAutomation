@@ -4,7 +4,7 @@
    <name>Investment_Test_Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-30T11:46:43</lastRun>
+   <lastRun>2018-08-20T12:25:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

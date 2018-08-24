@@ -3,8 +3,7 @@
    <description>This Scenario tests Investment When SVP Approval is Not Needed(When Investment Value is less than 100K Dollars)</description>
    <name>Investment_Less_Than_100k</name>
    <tag></tag>
-   <comment>engagementName
-woid</comment>
+   <comment></comment>
    <testCaseGuid>2de37122-064d-4183-900f-fb717d43aed1</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
